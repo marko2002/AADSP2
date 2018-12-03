@@ -1,0 +1,21 @@
+﻿Build started 3.12.2018 14:19:44.
+     1>Project "D:\SubZero\Projekat\ProcessWavFile\ProcessWavFile\ProcessWavFile.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\ProcessWavFile.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+       Manifest:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       FinalizeBuildStatus:
+         Deleting file "Debug\ProcessWavFile.unsuccessfulbuild".
+         Touching "Debug\ProcessWavFile.lastbuildstate".
+     1>Done Building Project "D:\SubZero\Projekat\ProcessWavFile\ProcessWavFile\ProcessWavFile.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.04
