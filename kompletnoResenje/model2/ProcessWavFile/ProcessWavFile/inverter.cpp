@@ -17,16 +17,20 @@ void audio_invert_init(inverter_data_t * data, DSPfract degree, DSPfract gain)
 
 void gst_audio_invert_transform(inverter_data_t * data, DSPfract * input, DSPfract * output)
 {
-  DSPint i;
+DSPint i;
   DSPfract dry = FRACT_NUM(0.999) - data->degree;
   dry = dry + FRACT_NUM(0.001);
-  DSPfract val;
+  DSPaccum val;
+  DSPfract tmp;
+  DSPfract tmp1 = FRACT_NUM(0.5);
 
-  for (i = 0; i < BLOCK_SIZE; i++) {
-	val = (*input) * dry - (FRACT_NUM(0.9990) + (*input)) * data->degree;
-	*input++;
-    (*output) = val * data->gain;
-	*output++;
+  for(i = 0; i < BLOCK_SIZE; i++)
+  {
+	tmp = (tmp1 + ((*input)>>1)); 			
+	val = ((*input)>>1) * (dry) - tmp * data->degree;
+	input++;
+	(*output) = ((DSPfract)val * data->gain)<<1;
+	output++;
   }
 }
 

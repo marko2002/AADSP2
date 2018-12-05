@@ -1,7 +1,7 @@
-﻿Build started 4.12.2018 16:33:53.
+﻿Build started 5.12.2018 15:37:23.
      1>Project "D:\SubZero\kompletnoResenje\model2\ProcessWavFile\ProcessWavFile\ProcessWavFile.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
-         Touching "Debug\model2.unsuccessfulbuild".
+         Creating "Debug\model2.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt inverter.cpp
          inverter.cpp
@@ -28,4 +28,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:00.59
+Time Elapsed 00:00:00.63

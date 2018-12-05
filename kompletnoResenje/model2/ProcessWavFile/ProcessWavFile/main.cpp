@@ -36,7 +36,7 @@ DSPint main(DSPint argc, char* argv[])
 	//-------------------------------------------------
 
 	
-	audio_invert_init(&inverter,(DSPfract)atof(argv[3]), (DSPfract)atof(argv[4]));
+	audio_invert_init(&inverter,FRACT_NUM(atof(argv[3])), FRACT_NUM(atof(argv[4])));
 
 
 

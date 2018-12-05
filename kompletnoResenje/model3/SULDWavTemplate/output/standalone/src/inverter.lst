@@ -1,0 +1,245 @@
+1     	 0000					.public _audio_invert_init
+2     	 0000					.public _gst_audio_invert_transform
+3     							.xdata_ovly
+3      >> start of macro: .xdata_ovly
+1+    									seg_single , "X_OVLY", X
+1+     >> start of macro: seg_single
+1+    						  .if ( "" != "" ) & defined( ___SegStart_X_ )
+2+    						    segment
+3+    						  .else
+4+    						    segment "X_OVLY"
+5+    							.if "" != ""
+6+    						___SegStart_X_
+7+    							.endif
+8+    						  .endif
+9+    							#RememberSegmentType
+10+    >> end of macro: seg_single
+2+     >> end of macro: .xdata_ovly
+4     	 0000				__extractedConst_0_1
+5     	 0000					.dw  (0x7fdf3b64)
+	 0000	 7FDF3B64	 
+6     							.xdata_ovly
+6      >> start of macro: .xdata_ovly
+1+    									seg_single , "X_OVLY", X
+1+     >> start of macro: seg_single
+1+    						  .if ( "" != "" ) & defined( ___SegStart_X_ )
+2+    						    segment
+3+    						  .else
+4+    						    segment "X_OVLY"
+5+    							.if "" != ""
+6+    						___SegStart_X_
+7+    							.endif
+8+    						  .endif
+9+    							#RememberSegmentType
+10+    >> end of macro: seg_single
+2+     >> end of macro: .xdata_ovly
+7     	 0000				__extractedConst_1_1
+8     	 0000					.dw  (0x20c49c)
+	 0000	 0020C49C	 
+9     							.code_ovly
+9      >> start of macro: .code_ovly
+1+    									seg_single , "CODE_OVLY", CODE
+1+     >> start of macro: seg_single
+1+    						  .if ( "" != "" ) & defined( ___SegStart_CODE_ )
+2+    						    segment
+3+    						  .else
+4+    						    segment "CODE_OVLY"
+5+    							.if "" != ""
+6+    						___SegStart_CODE_
+7+    							.endif
+8+    						  .endif
+9+    							#RememberSegmentType
+10+    >> end of macro: seg_single
+2+     >> end of macro: .code_ovly
+10    						
+11    						
+12    						
+13    	 0000				_audio_invert_init:			/* LN: 12 | CYCLE: 0 | RULES: () */ 
+14    	 0000	 BB540007		xmem[i7] = i7			# LN: 12 | 
+15    	 0001	 020F7FFF		i7 += 1			# LN: 12 | 
+16    	 0002	 87750003		i7 = i7 + (0x3)			# LN: 12 | 
+17    	 0003	 91750001		i1 = i7 - (0x1)			# LN: 12 | 
+18    	 0004	 B0540001		xmem[i1] = i0			# LN: 12 | 
+19    	 0005	 90750002		i0 = i7 - (0x2)			# LN: 12 | 
+20    	 0006	 98540000		xmem[i0] = a0h			# LN: 12 | 
+21    	 0007	 90750003		i0 = i7 - (0x3)			# LN: 12 | 
+22    	 0008	 99540000		xmem[i0] = a1h			# LN: 12 | 
+23    	 0009				cline_12_0:			/* LN: 14 | CYCLE: 0 | RULES: () */ 
+24    	 0009	 90750001		i0 = i7 - (0x1)			# LN: 14 | 
+25    	 000A	 88140000		a0 = xmem[i0]			# LN: 14 | 
+26    	 000B	 98090030		AnyReg(i0, a0h)			# LN: 14 | 
+27    	 000C	 91750002		i1 = i7 - (0x2)			# LN: 14 | 
+28    	 000D	 88140001		a0 = xmem[i1]			# LN: 14 | 
+29    	 000E	 98540000		xmem[i0] = a0h			# LN: 14 | 
+30    	 000F				cline_14_0:			/* LN: 15 | CYCLE: 0 | RULES: () */ 
+31    	 000F	 90750001		i0 = i7 - (0x1)			# LN: 15 | 
+32    	 0010	 B0140000		i0 = xmem[i0]			# LN: 15 | 
+33    	 0011	 91750003		i1 = i7 - (0x3)			# LN: 15 | 
+34    	 0012	 02087FFF		i0 += 1			# LN: 15 | 
+35    	 0013	 88140001		a0 = xmem[i1]			# LN: 15 | 
+36    	 0014	 98540000		xmem[i0] = a0h			# LN: 15 | 
+37    	 0015				cline_15_0:			/* LN: 16 | CYCLE: 0 | RULES: () */ 
+38    	 0015	 80080016		jmp (__epilogue_104)			# LN: 16 | 
+39    	 0016				__epilogue_104:			/* LN: 16 | CYCLE: 0 | RULES: () */ 
+40    	 0016	 97750003		i7 = i7 - (0x3)			# LN: 16 | 
+41    	 0017	 02177FFF		i7 -= 1			# LN: 16 | 
+42    	 0018	 81880000		ret			# LN: 16 | 
+43    						
+44    						
+45    						
+46    	 0019				_gst_audio_invert_transform:			/* LN: 18 | CYCLE: 0 | RULES: () */ 
+47    	 0019	 BB540007		xmem[i7] = i7			# LN: 18 | 
+48    	 001A	 020F7FFF		i7 += 1			# LN: 18 | 
+49    	 001B	 8775000A		i7 = i7 + (0xa)			# LN: 18 | 
+50    	 001C	 95750001		i5 = i7 - (0x1)			# LN: 18 | 
+51    	 001D	 B0540005		xmem[i5] = i0			# LN: 18 | 
+52    	 001E	 90750002		i0 = i7 - (0x2)			# LN: 18 | 
+53    	 001F	 B1540000		xmem[i0] = i1			# LN: 18 | 
+54    	 0020	 90750003		i0 = i7 - (0x3)			# LN: 18 | 
+55    	 0021	 B8540000		xmem[i0] = i4			# LN: 18 | 
+56    	 0022				cline_18_0:			/* LN: 21 | CYCLE: 0 | RULES: () */ 
+57    	 0022	 90750001		i0 = i7 - (0x1)			# LN: 21 | 
+58    	 0023	 88140000		a0 = xmem[i0]			# LN: 21 | 
+59    	 0024	 98090030		AnyReg(i0, a0h)			# LN: 21 | 
+60    	 0025	 88040000		a0 = xmem[__extractedConst_0_1 + 0]			# LN: 21 | 
+61    	 0026	 89140000		a1 = xmem[i0]			# LN: 21 | 
+62    	 0027	 00004448		a0 = a0 - a1			# LN: 21 | 
+63    	 0028	 90750004		i0 = i7 - (0x4)			# LN: 21 | 
+64    	 0029	 98540000		xmem[i0] = a0h			# LN: 21 | 
+65    	 002A				cline_21_0:			/* LN: 24 | CYCLE: 0 | RULES: () */ 
+66    	 002A	 90750005		i0 = i7 - (0x5)			# LN: 24 | 
+67    	 002B	 887A4000		a0 = (0x4000)			# LN: 24 | 
+68    	 002C	 98540000		xmem[i0] = a0h			# LN: 24 | 
+69    	 002D				cline_24_0:			/* LN: 25 | CYCLE: 0 | RULES: () */ 
+70    	 002D	 90750004		i0 = i7 - (0x4)			# LN: 25 | 
+71    	 002E	 88140000		a0 = xmem[i0]			# LN: 25 | 
+72    	 002F	 89040000		a1 = xmem[__extractedConst_1_1 + 0]			# LN: 25 | 
+73    	 0030	 00004408		a0 = a0 + a1			# LN: 25 | 
+74    	 0031	 90750004		i0 = i7 - (0x4)			# LN: 25 | 
+75    	 0032	 98540000		xmem[i0] = a0h			# LN: 25 | 
+76    	 0033				cline_25_0:			/* LN: 27 | CYCLE: 0 | RULES: () */ 
+77    	 0033	 90750006		i0 = i7 - (0x6)			# LN: 27 | 
+78    	 0034	 00004DC0		a0 = 0			# LN: 27 | 
+79    	 0035	 98540000		xmem[i0] = a0h			# LN: 27 | 
+80    	 0036	 8100006D		do (0x10), label_end_92			# LN: 27 | 
+81    	 0037				cline_27_0:			/* LN: 29 | CYCLE: 0 | RULES: () */ 
+82    	 0037				label_begin_92:			/* LN: 27 | CYCLE: 0 | RULES: () */ 
+83    	 0037	 90750002		i0 = i7 - (0x2)			# LN: 29 | 
+84    	 0038	 B0140000		i0 = xmem[i0]			# LN: 29 | 
+85    	 0039	 91750005		i1 = i7 - (0x5)			# LN: 29 | 
+86    	 003A	 88140000		a0 = xmem[i0]			# LN: 29 | 
+87    	 003B	 19414E40		a1 = xmem[i1]; a0 = a0 >> 1			# LN: 29, 29 | 
+88    	 003C	 00004480		a0 = a1 + a0			# LN: 29 | 
+89    	 003D	 90750007		i0 = i7 - (0x7)			# LN: 29 | 
+90    	 003E	 98540000		xmem[i0] = a0h			# LN: 29 | 
+91    	 003F				cline_29_0:			/* LN: 30 | CYCLE: 0 | RULES: () */ 
+92    	 003F	 90750002		i0 = i7 - (0x2)			# LN: 30 | 
+93    	 0040	 B0140000		i0 = xmem[i0]			# LN: 30 | 
+94    	 0041	 91750004		i1 = i7 - (0x4)			# LN: 30 | 
+95    	 0042	 88140000		a0 = xmem[i0]			# LN: 30 | 
+96    	 0043	 10414E40		x0 = xmem[i1]; a0 = a0 >> 1			# LN: 30, 30 | 
+97    	 0044	 01587FFF		x1 = a0h			# LN: 30 | 
+98    	 0045	 90750001		i0 = i7 - (0x1)			# LN: 30 | 
+99    	 0046	 18402021		a0 = xmem[i0]; a1 = x1 * x0			# LN: 30, 30 | 
+100   	 0047	 98090030		AnyReg(i0, a0h)			# LN: 30 | 
+101   	 0048	 91750007		i1 = i7 - (0x7)			# LN: 30 | 
+102   	 0049	 80140000		x0 = xmem[i0]			# LN: 30 | 
+103   	 004A	 81140001		x1 = xmem[i1]			# LN: 30 | 
+104   	 004B	 00002039		a1 -= x1 * x0			# LN: 30 | 
+105   	 004C	 9075000A		i0 = i7 - (0xa)			# LN: 30 | 
+106   	 004D	 A1540010		xmem[i0] = a1g; i0 += 1			# LN: 30, 30 | 
+107   	 004E	 99540010		xmem[i0] = a1h; i0 += 1			# LN: 30, 30 | 
+108   	 004F	 91540000		xmem[i0] = a1l			# LN: 30 | 
+109   	 0050				cline_30_0:			/* LN: 31 | CYCLE: 0 | RULES: () */ 
+110   	 0050	 90750002		i0 = i7 - (0x2)			# LN: 31 | 
+111   	 0051	 B0140000		i0 = xmem[i0]			# LN: 31 | 
+112   	 0052	 91750002		i1 = i7 - (0x2)			# LN: 31 | 
+113   	 0053	 02087FFF		i0 += 1			# LN: 31 | 
+114   	 0054	 B0540001		xmem[i1] = i0			# LN: 31 | 
+115   	 0055				cline_31_0:			/* LN: 32 | CYCLE: 0 | RULES: () */ 
+116   	 0055	 9075000A		i0 = i7 - (0xa)			# LN: 32 | 
+117   	 0056	 A0140010		a0g = xmem[i0]; i0 += 1			# LN: 32, 32 | 
+118   	 0057	 98140010		a0h = xmem[i0]; i0 += 1			# LN: 32, 32 | 
+119   	 0058	 90140000		a0l = xmem[i0]			# LN: 32 | 
+120   	 0059	 90750001		i0 = i7 - (0x1)			# LN: 32 | 
+121   	 005A	 B0140000		i0 = xmem[i0]			# LN: 32 | 
+122   	 005B	 48407FFF		x0 = a0			# LN: 32 | 
+123   	 005C	 02087FFF		i0 += 1			# LN: 32 | 
+124   	 005D	 81140000		x1 = xmem[i0]			# LN: 32 | 
+125   	 005E	 00002080		a0 = x0 * x1			# LN: 32 | 
+126   	 005F	 90750003		i0 = i7 - (0x3)			# LN: 32 | 
+127   	 0060	 B0140000		i0 = xmem[i0]			# LN: 32 | 
+128   	 0061	 00004E00		a0 = a0 << 1			# LN: 32 | 
+129   	 0062	 88540000		xmem[i0] = a0			# LN: 32 | 
+130   	 0063				cline_32_0:			/* LN: 33 | CYCLE: 0 | RULES: () */ 
+131   	 0063	 90750003		i0 = i7 - (0x3)			# LN: 33 | 
+132   	 0064	 B0140000		i0 = xmem[i0]			# LN: 33 | 
+133   	 0065	 91750003		i1 = i7 - (0x3)			# LN: 33 | 
+134   	 0066	 02087FFF		i0 += 1			# LN: 33 | 
+135   	 0067	 B0540001		xmem[i1] = i0			# LN: 33 | 
+136   	 0068				cline_33_0:			/* LN: 27 | CYCLE: 0 | RULES: () */ 
+137   	 0068				init_latch_label_0:			/* LN: 34 | CYCLE: 0 | RULES: () */ 
+138   	 0068	 90750006		i0 = i7 - (0x6)			# LN: 27 | 
+139   	 0069	 88140000		a0 = xmem[i0]			# LN: 27 | 
+140   	 006A	 894A0001		uhalfword(a1) = (0x1)			# LN: 27 | 
+141   	 006B	 00004408		a0 = a0 + a1			# LN: 27 | 
+142   	 006C	 90750006		i0 = i7 - (0x6)			# LN: 27 | 
+143   	 006D				label_end_92:			# LN: 27 | CYCLE: 5 | RULES: ()
+144   	 006D	 98540000		xmem[i0] = a0h			# LN: 27 | 
+145   	 006E				cline_27_1:			/* LN: 35 | CYCLE: 0 | RULES: () */ 
+146   	 006E				for_end_0:			/* LN: 27 | CYCLE: 0 | RULES: () */ 
+147   	 006E	 8008006F		jmp (__epilogue_106)			# LN: 35 | 
+148   	 006F				__epilogue_106:			/* LN: 35 | CYCLE: 0 | RULES: () */ 
+149   	 006F	 9775000A		i7 = i7 - (0xa)			# LN: 35 | 
+150   	 0070	 02177FFF		i7 -= 1			# LN: 35 | 
+151   	 0071	 81880000		ret			# LN: 35 | 
+152   						(null)
+				 SYMBOL TABLE 
+
+    Name                                                                                    Type                  Value 
+
+_COMMON_INC_PATH_                                                               					 Define                 "C:/CirrusDSP/crystal32/common/inc/"
+_DSP_                                                                           					 Define                 "a"
+_LOCAL_INC_PATH_                                                                					 Define                 "inc/"
+_LOCAL_SRC_PATH_                                                                					 Define                 "src/"
+_MUI_VERSION_                                                                   					 Define                 "020000"
+_OVLY_                                                                          					 Define                 "standalone"
+_OVLY_REVISION_                                                                 					 Define                 "020000"
+_ROUTER_INC_PATH_                                                               					 Define                 "rom_inc/"
+_SLOT_                                                                          					 Define                 "0"
+_TARGET_FAMILY_                                                                 					 Define                 "crystal32"
+_TOOLS_VERSION_                                                                 					 Define                 "0x0701"
+_VERSION_                                                                       					 Define                 "00"
+__CASM_VER__                                                                    			  Unused Variable		        0 (701H)
+__epilogue_104                                                                  			         Relocatable         inverter_GEN_0002:0016H
+__epilogue_106                                                                  			         Relocatable         inverter_GEN_0002:006FH
+__extractedConst_0_1                                                            			         Relocatable         inverter_GEN_0000:0000H
+__extractedConst_1_1                                                            			         Relocatable         inverter_GEN_0001:0000H
+_audio_invert_init                                                              			  Public Relocatable       inverter_GEN_0002:0000H
+_gst_audio_invert_transform                                                     			  Public Relocatable       inverter_GEN_0002:0019H
+cline_12_0                                                                      			  Unused Relocatable        inverter_GEN_0002:0009H
+cline_14_0                                                                      			  Unused Relocatable        inverter_GEN_0002:000FH
+cline_15_0                                                                      			  Unused Relocatable        inverter_GEN_0002:0015H
+cline_18_0                                                                      			  Unused Relocatable        inverter_GEN_0002:0022H
+cline_21_0                                                                      			  Unused Relocatable        inverter_GEN_0002:002AH
+cline_24_0                                                                      			  Unused Relocatable        inverter_GEN_0002:002DH
+cline_25_0                                                                      			  Unused Relocatable        inverter_GEN_0002:0033H
+cline_27_0                                                                      			  Unused Relocatable        inverter_GEN_0002:0037H
+cline_27_1                                                                      			  Unused Relocatable        inverter_GEN_0002:006EH
+cline_29_0                                                                      			  Unused Relocatable        inverter_GEN_0002:003FH
+cline_30_0                                                                      			  Unused Relocatable        inverter_GEN_0002:0050H
+cline_31_0                                                                      			  Unused Relocatable        inverter_GEN_0002:0055H
+cline_32_0                                                                      			  Unused Relocatable        inverter_GEN_0002:0063H
+cline_33_0                                                                      			  Unused Relocatable        inverter_GEN_0002:0068H
+for_end_0                                                                       			  Unused Relocatable        inverter_GEN_0002:006EH
+init_latch_label_0                                                              			  Unused Relocatable        inverter_GEN_0002:0068H
+label_begin_92                                                                  			  Unused Relocatable        inverter_GEN_0002:0037H
+label_end_92                                                                    			         Relocatable         inverter_GEN_0002:006DH
+
+	       SEGMENTS:
+
+Size			  Name										 Class
+0000H	 __INIT                                  			 CODE                                    
+0001H	 inverter_GEN_0000                       			 X_OVLY                                  
+0001H	 inverter_GEN_0001                       			 X_OVLY                                  
+0072H	 inverter_GEN_0002                       			 CODE_OVLY                               
