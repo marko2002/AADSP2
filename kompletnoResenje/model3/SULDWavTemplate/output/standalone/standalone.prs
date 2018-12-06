@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<settings built="true" last_build_time="1544023978237">
+<settings built="true" last_build_time="1544106367719">
 	<dependencies>
-		<source_file last_build_time="1544023976793" path="src/main.c">
+		<source_file last_build_time="1544106293709" path="src/main.c">
 			<dependency>C:/CirrusDSP/include/stdio.h</dependency>
 			<dependency>C:/CirrusDSP/include/dsplib/wavefile.h</dependency>
 			<dependency>C:/CirrusDSP/include/stdfix.h</dependency>
@@ -12,15 +12,9 @@
 			<dependency>../inc/defines.h</dependency>
 			<dependency>../inc/stdfix_emu.h</dependency>
 		</source_file>
-		<source_file last_build_time="1544023832035" path="src/processing.c">
-			<dependency>../inc/processing.h</dependency>
-			<dependency>../inc/inverter.h</dependency>
-			<dependency>../inc/defines.h</dependency>
-			<dependency>../inc/stdfix_emu.h</dependency>
-			<dependency>C:/CirrusDSP/include/stdfix.h</dependency>
-			<dependency>C:/CirrusDSP/include/scaling_coeff.h</dependency>
-		</source_file>
-		<source_file last_build_time="1544023832909" path="src/inverter.c">
+		<source_file last_build_time="1544106366275" path="src/processing.c"/>
+		<source_file last_build_time="1544106366275" path="src/processing.a"/>
+		<source_file last_build_time="1544106294143" path="src/inverter.c">
 			<dependency>../inc/inverter.h</dependency>
 			<dependency>../inc/defines.h</dependency>
 			<dependency>../inc/stdfix_emu.h</dependency>

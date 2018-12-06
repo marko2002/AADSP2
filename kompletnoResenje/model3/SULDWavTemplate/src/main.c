@@ -9,11 +9,11 @@
 #define NMBR_CHANELS 5
 
 //fract sampleBuffer[MAX_NUM_CHANNEL][BLOCK_SIZE];
-DSPfract sampleBuffer[MAX_NUM_CHANNEL][BLOCK_SIZE];
-inverter_data_t inverter;
+ __memY DSPfract sampleBuffer[MAX_NUM_CHANNEL][BLOCK_SIZE];
+ __memX inverter_data_t inverter;
 
-DSPfract gainTmp = 0.1;
-DSPfract deegreTmp = -0.1;
+ __memX DSPfract gainTmp = 0.1;
+ __memX DSPfract deegreTmp = -0.1;
  
 int main(int argc, char *argv[])
  {
@@ -39,7 +39,7 @@ int main(int argc, char *argv[])
 
 	// Open input wav file
 	//-------------------------------------------------
-	strcpy(WavInputName,"../../../TestStreams/2ch_contour_ne40_24b_48k.wav");
+	strcpy(WavInputName,"../../../TestStreams/Amp_Sweep.wav");
 	wav_in = cl_wavread_open(WavInputName);
 	 if(wav_in == NULL)
     {

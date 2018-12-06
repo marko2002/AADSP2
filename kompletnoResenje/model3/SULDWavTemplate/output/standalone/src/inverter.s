@@ -83,7 +83,7 @@ label_begin_92:			/* LN: 27 | CYCLE: 0 | RULES: () */
 	i0 = i7 - (0x2)			# LN: 29 | 
 	i0 = xmem[i0]			# LN: 29 | 
 	i1 = i7 - (0x5)			# LN: 29 | 
-	a0 = xmem[i0]			# LN: 29 | 
+	a0 = ymem[i0]			# LN: 29 | 
 	a1 = xmem[i1]; a0 = a0 >> 1			# LN: 29, 29 | 
 	a0 = a1 + a0			# LN: 29 | 
 	i0 = i7 - (0x7)			# LN: 29 | 
@@ -92,7 +92,7 @@ cline_29_0:			/* LN: 30 | CYCLE: 0 | RULES: () */
 	i0 = i7 - (0x2)			# LN: 30 | 
 	i0 = xmem[i0]			# LN: 30 | 
 	i1 = i7 - (0x4)			# LN: 30 | 
-	a0 = xmem[i0]			# LN: 30 | 
+	a0 = ymem[i0]			# LN: 30 | 
 	x0 = xmem[i1]; a0 = a0 >> 1			# LN: 30, 30 | 
 	x1 = a0h			# LN: 30 | 
 	i0 = i7 - (0x1)			# LN: 30 | 
@@ -126,7 +126,7 @@ cline_31_0:			/* LN: 32 | CYCLE: 0 | RULES: () */
 	i0 = i7 - (0x3)			# LN: 32 | 
 	i0 = xmem[i0]			# LN: 32 | 
 	a0 = a0 << 1			# LN: 32 | 
-	xmem[i0] = a0			# LN: 32 | 
+	ymem[i0] = a0			# LN: 32 | 
 cline_32_0:			/* LN: 33 | CYCLE: 0 | RULES: () */ 
 	i0 = i7 - (0x3)			# LN: 33 | 
 	i0 = xmem[i0]			# LN: 33 | 

@@ -7,139 +7,142 @@ Warning #507: Unknown class: Y_OS_CC_GLOBALS
 Address class CODE	Address:[0000...FFFF], length 10000
 	Address:[0000...0000], length 0001, <RESERVED for crt0_GEN_0002, class CODE>
 	Address:[0001...00D5], length 00D5, <RESERVED for main_GEN_0008, class CODE_OVLY>
-	Address:[00D6...019C], length 00C7, <RESERVED for processing_GEN_0003, class CODE_OVLY>
-	Address:[019D...0216], length 007A, <RESERVED for udiv_GEN_0000, class CODE_OVLY>
-	Address:[0217...0288], length 0072, <RESERVED for inverter_GEN_0002, class CODE_OVLY>
-	Address:[0289...02C2], length 003A, <RESERVED for div_GEN_0000, class CODE_OVLY>
-	Address:[02C3...02C9], length 0007, <RESERVED for strcpy_x2x_GEN_0000, class CODE_OVLY>
-	Address:[02CA...02CD], length 0004, <RESERVED for crt0_GEN_0003, class CODE_OVLY>
-	Address:[02CE...02D1], length 0004, <RESERVED for exit_GEN_0000, class CODE_OVLY>
-	Address:[02D2...02D4], length 0003, <RESERVED for cl_wavread_bits_per_sample_GEN_0000, class CODE_OVLY>
-	Address:[02D5...02D7], length 0003, <RESERVED for cl_wavread_close_GEN_0000, class CODE_OVLY>
-	Address:[02D8...02DA], length 0003, <RESERVED for cl_wavread_frame_rate_GEN_0000, class CODE_OVLY>
-	Address:[02DB...02DD], length 0003, <RESERVED for cl_wavread_getnchannels_GEN_0000, class CODE_OVLY>
-	Address:[02DE...02E0], length 0003, <RESERVED for cl_wavread_number_of_frames_GEN_0000, class CODE_OVLY>
-	Address:[02E1...02E3], length 0003, <RESERVED for cl_wavread_open_GEN_0000, class CODE_OVLY>
-	Address:[02E4...02E6], length 0003, <RESERVED for cl_wavread_recvsample_GEN_0000, class CODE_OVLY>
-	Address:[02E7...02E9], length 0003, <RESERVED for cl_wavwrite_close_GEN_0000, class CODE_OVLY>
-	Address:[02EA...02EC], length 0003, <RESERVED for cl_wavwrite_open_GEN_0000, class CODE_OVLY>
-	Address:[02ED...02EF], length 0003, <RESERVED for cl_wavwrite_sendsample_GEN_0000, class CODE_OVLY>
-	Address:[02F0...02F2], length 0003, <RESERVED for printf_GEN_0000, class CODE_OVLY>
-	Address:[02F3...FFFF], length FD0D, <FREE>
+	Address:[00D6...01A2], length 00CD, <RESERVED for processing_GEN_0005, class CODE_OVLY>
+	Address:[01A3...021C], length 007A, <RESERVED for udiv_GEN_0000, class CODE_OVLY>
+	Address:[021D...028E], length 0072, <RESERVED for inverter_GEN_0002, class CODE_OVLY>
+	Address:[028F...02C8], length 003A, <RESERVED for div_GEN_0000, class CODE_OVLY>
+	Address:[02C9...02CF], length 0007, <RESERVED for strcpy_x2x_GEN_0000, class CODE_OVLY>
+	Address:[02D0...02D3], length 0004, <RESERVED for crt0_GEN_0003, class CODE_OVLY>
+	Address:[02D4...02D7], length 0004, <RESERVED for exit_GEN_0000, class CODE_OVLY>
+	Address:[02D8...02DA], length 0003, <RESERVED for cl_wavread_bits_per_sample_GEN_0000, class CODE_OVLY>
+	Address:[02DB...02DD], length 0003, <RESERVED for cl_wavread_close_GEN_0000, class CODE_OVLY>
+	Address:[02DE...02E0], length 0003, <RESERVED for cl_wavread_frame_rate_GEN_0000, class CODE_OVLY>
+	Address:[02E1...02E3], length 0003, <RESERVED for cl_wavread_getnchannels_GEN_0000, class CODE_OVLY>
+	Address:[02E4...02E6], length 0003, <RESERVED for cl_wavread_number_of_frames_GEN_0000, class CODE_OVLY>
+	Address:[02E7...02E9], length 0003, <RESERVED for cl_wavread_open_GEN_0000, class CODE_OVLY>
+	Address:[02EA...02EC], length 0003, <RESERVED for cl_wavread_recvsample_GEN_0000, class CODE_OVLY>
+	Address:[02ED...02EF], length 0003, <RESERVED for cl_wavwrite_close_GEN_0000, class CODE_OVLY>
+	Address:[02F0...02F2], length 0003, <RESERVED for cl_wavwrite_open_GEN_0000, class CODE_OVLY>
+	Address:[02F3...02F5], length 0003, <RESERVED for cl_wavwrite_sendsample_GEN_0000, class CODE_OVLY>
+	Address:[02F6...02F8], length 0003, <RESERVED for printf_GEN_0000, class CODE_OVLY>
+	Address:[02F9...FFFF], length FD07, <FREE>
 
 Address class X	Address:[0000...FFFF], length 10000
 	Address:[0000...0000], length 0001, <RESERVED for crt0_GEN_0000, class X>
-	Address:[0001...0080], length 0080, <RESERVED for main_GEN_0003, class X_OVLY>
-	Address:[0081...00B2], length 0032, <RESERVED for main_GEN_0004, class X_OVLY>
-	Address:[00B3...00D3], length 0021, <RESERVED for main_GEN_0005, class X_OVLY>
-	Address:[00D4...00F4], length 0021, <RESERVED for main_GEN_0007, class X_OVLY>
-	Address:[00F5...010F], length 001B, <RESERVED for main_GEN_0006, class X_OVLY>
-	Address:[0110...0111], length 0002, <RESERVED for main_GEN_0002, class X_OVLY>
-	Address:[0112...0112], length 0001, <RESERVED for main_GEN_0000, class X_OVLY>
-	Address:[0113...0113], length 0001, <RESERVED for main_GEN_0001, class X_OVLY>
-	Address:[0114...0114], length 0001, <RESERVED for inverter_GEN_0000, class X_OVLY>
-	Address:[0115...0115], length 0001, <RESERVED for inverter_GEN_0001, class X_OVLY>
-	Address:[0116...0116], length 0001, <RESERVED for processing_GEN_0000, class X_OVLY>
-	Address:[0117...0117], length 0001, <RESERVED for processing_GEN_0001, class X_OVLY>
-	Address:[0118...0118], length 0001, <RESERVED for processing_GEN_0002, class X_OVLY>
-	Address:[0119...0918], length 0800, <RESERVED for simulator_stack_GEN_0000, class X>
-	Address:[0919...FFFF], length F6E7, <FREE>
+	Address:[0001...0023], length 0023, <RESERVED for main_GEN_0004, class X_OVLY>
+	Address:[0024...0044], length 0021, <RESERVED for main_GEN_0005, class X_OVLY>
+	Address:[0045...0065], length 0021, <RESERVED for main_GEN_0007, class X_OVLY>
+	Address:[0066...0080], length 001B, <RESERVED for main_GEN_0006, class X_OVLY>
+	Address:[0081...0082], length 0002, <RESERVED for main_GEN_0002, class X_OVLY>
+	Address:[0083...0083], length 0001, <RESERVED for main_GEN_0000, class X_OVLY>
+	Address:[0084...0084], length 0001, <RESERVED for main_GEN_0001, class X_OVLY>
+	Address:[0085...0085], length 0001, <RESERVED for inverter_GEN_0000, class X_OVLY>
+	Address:[0086...0086], length 0001, <RESERVED for inverter_GEN_0001, class X_OVLY>
+	Address:[0087...0087], length 0001, <RESERVED for processing_GEN_0000, class X_OVLY>
+	Address:[0088...0088], length 0001, <RESERVED for processing_GEN_0001, class X_OVLY>
+	Address:[0089...0089], length 0001, <RESERVED for processing_GEN_0002, class X_OVLY>
+	Address:[008A...0889], length 0800, <RESERVED for simulator_stack_GEN_0000, class X>
+	Address:[088A...FFFF], length F776, <FREE>
 
 Address class X_AVAIL	Address:[0000...FBFF], length FC00, subclass of X
-	Address:[0001...0080], length 0080, <RESERVED for main_GEN_0003, class X_OVLY>
-	Address:[0081...00B2], length 0032, <RESERVED for main_GEN_0004, class X_OVLY>
-	Address:[00B3...00D3], length 0021, <RESERVED for main_GEN_0005, class X_OVLY>
-	Address:[00D4...00F4], length 0021, <RESERVED for main_GEN_0007, class X_OVLY>
-	Address:[00F5...010F], length 001B, <RESERVED for main_GEN_0006, class X_OVLY>
-	Address:[0110...0111], length 0002, <RESERVED for main_GEN_0002, class X_OVLY>
-	Address:[0112...0112], length 0001, <RESERVED for main_GEN_0000, class X_OVLY>
-	Address:[0113...0113], length 0001, <RESERVED for main_GEN_0001, class X_OVLY>
-	Address:[0114...0114], length 0001, <RESERVED for inverter_GEN_0000, class X_OVLY>
-	Address:[0115...0115], length 0001, <RESERVED for inverter_GEN_0001, class X_OVLY>
-	Address:[0116...0116], length 0001, <RESERVED for processing_GEN_0000, class X_OVLY>
-	Address:[0117...0117], length 0001, <RESERVED for processing_GEN_0001, class X_OVLY>
-	Address:[0118...0118], length 0001, <RESERVED for processing_GEN_0002, class X_OVLY>
-	Address:[0919...FBFF], length F2E7, <FREE>
+	Address:[0001...0023], length 0023, <RESERVED for main_GEN_0004, class X_OVLY>
+	Address:[0024...0044], length 0021, <RESERVED for main_GEN_0005, class X_OVLY>
+	Address:[0045...0065], length 0021, <RESERVED for main_GEN_0007, class X_OVLY>
+	Address:[0066...0080], length 001B, <RESERVED for main_GEN_0006, class X_OVLY>
+	Address:[0081...0082], length 0002, <RESERVED for main_GEN_0002, class X_OVLY>
+	Address:[0083...0083], length 0001, <RESERVED for main_GEN_0000, class X_OVLY>
+	Address:[0084...0084], length 0001, <RESERVED for main_GEN_0001, class X_OVLY>
+	Address:[0085...0085], length 0001, <RESERVED for inverter_GEN_0000, class X_OVLY>
+	Address:[0086...0086], length 0001, <RESERVED for inverter_GEN_0001, class X_OVLY>
+	Address:[0087...0087], length 0001, <RESERVED for processing_GEN_0000, class X_OVLY>
+	Address:[0088...0088], length 0001, <RESERVED for processing_GEN_0001, class X_OVLY>
+	Address:[0089...0089], length 0001, <RESERVED for processing_GEN_0002, class X_OVLY>
+	Address:[088A...FBFF], length F376, <FREE>
 
 Address class Y	Address:[0000...FFFF], length 10000
 	Address:[0000...0000], length 0001, <RESERVED for crt0_GEN_0001, class Y>
-	Address:[0001...FFFF], length FFFF, <FREE>
+	Address:[0001...0080], length 0080, <RESERVED for main_GEN_0003, class Y_OVLY>
+	Address:[0081...0090], length 0010, <RESERVED for processing_GEN_0003, class Y_OVLY>
+	Address:[0091...00A0], length 0010, <RESERVED for processing_GEN_0004, class Y_OVLY>
+	Address:[00A1...FFFF], length FF5F, <FREE>
 
 -----------------Module:  main(Segment name)
-                      main_GEN_0000, address 0112 ,length 0001, class     X_OVLY
-                      main_GEN_0001, address 0113 ,length 0001, class     X_OVLY
-                      main_GEN_0002, address 0110 ,length 0002, class     X_OVLY
-                      main_GEN_0003, address 0001 ,length 0080, class     X_OVLY
-                      main_GEN_0004, address 0081 ,length 0032, class     X_OVLY
-                      main_GEN_0005, address 00B3 ,length 0021, class     X_OVLY
-                      main_GEN_0006, address 00F5 ,length 001B, class     X_OVLY
-                      main_GEN_0007, address 00D4 ,length 0021, class     X_OVLY
+                      main_GEN_0000, address 0083 ,length 0001, class     X_OVLY
+                      main_GEN_0001, address 0084 ,length 0001, class     X_OVLY
+                      main_GEN_0002, address 0081 ,length 0002, class     X_OVLY
+                      main_GEN_0003, address 0001 ,length 0080, class     Y_OVLY
+                      main_GEN_0004, address 0001 ,length 0023, class     X_OVLY
+                      main_GEN_0005, address 0024 ,length 0021, class     X_OVLY
+                      main_GEN_0006, address 0066 ,length 001B, class     X_OVLY
+                      main_GEN_0007, address 0045 ,length 0021, class     X_OVLY
                       main_GEN_0008, address 0001 ,length 00D5, class  CODE_OVLY
 
 -----------------Module:  inverter(Segment name)
-                  inverter_GEN_0000, address 0114 ,length 0001, class     X_OVLY
-                  inverter_GEN_0001, address 0115 ,length 0001, class     X_OVLY
-                  inverter_GEN_0002, address 0217 ,length 0072, class  CODE_OVLY
+                  inverter_GEN_0000, address 0085 ,length 0001, class     X_OVLY
+                  inverter_GEN_0001, address 0086 ,length 0001, class     X_OVLY
+                  inverter_GEN_0002, address 021D ,length 0072, class  CODE_OVLY
 
 -----------------Module:  processing(Segment name)
-                processing_GEN_0000, address 0116 ,length 0001, class     X_OVLY
-                processing_GEN_0001, address 0117 ,length 0001, class     X_OVLY
-                processing_GEN_0002, address 0118 ,length 0001, class     X_OVLY
-                processing_GEN_0003, address 00D6 ,length 00C7, class  CODE_OVLY
+                processing_GEN_0000, address 0087 ,length 0001, class     X_OVLY
+                processing_GEN_0001, address 0088 ,length 0001, class     X_OVLY
+                processing_GEN_0002, address 0089 ,length 0001, class     X_OVLY
+                processing_GEN_0003, address 0081 ,length 0010, class     Y_OVLY
+                processing_GEN_0004, address 0091 ,length 0010, class     Y_OVLY
+                processing_GEN_0005, address 00D6 ,length 00CD, class  CODE_OVLY
 
 -----------------Module:  crt0(Segment name)
                       crt0_GEN_0000, address 0000 ,length 0001, class          X, at 0000
                       crt0_GEN_0001, address 0000 ,length 0001, class          Y, at 0000
                       crt0_GEN_0002, address 0000 ,length 0001, class       CODE, at 0000
-                      crt0_GEN_0003, address 02CA ,length 0004, class  CODE_OVLY
+                      crt0_GEN_0003, address 02D0 ,length 0004, class  CODE_OVLY
 
 -----------------Module:  div(Segment name)
-                       div_GEN_0000, address 0289 ,length 003A, class  CODE_OVLY
+                       div_GEN_0000, address 028F ,length 003A, class  CODE_OVLY
 
 -----------------Module:  exit(Segment name)
-                      exit_GEN_0000, address 02CE ,length 0004, class  CODE_OVLY
+                      exit_GEN_0000, address 02D4 ,length 0004, class  CODE_OVLY
 
 -----------------Module:  simulator_stack(Segment name)
-           simulator_stack_GEN_0000, address 0119 ,length 0800, class          X
+           simulator_stack_GEN_0000, address 008A ,length 0800, class          X
 
 -----------------Module:  strcpy_x2x(Segment name)
-                strcpy_x2x_GEN_0000, address 02C3 ,length 0007, class  CODE_OVLY
+                strcpy_x2x_GEN_0000, address 02C9 ,length 0007, class  CODE_OVLY
 
 -----------------Module:  udiv(Segment name)
-                      udiv_GEN_0000, address 019D ,length 007A, class  CODE_OVLY
+                      udiv_GEN_0000, address 01A3 ,length 007A, class  CODE_OVLY
 
 -----------------Module:  cl_wavread_bits_per_sample(Segment name)
-cl_wavread_bits_per_sample_GEN_0000, address 02D2 ,length 0003, class  CODE_OVLY
+cl_wavread_bits_per_sample_GEN_0000, address 02D8 ,length 0003, class  CODE_OVLY
 
 -----------------Module:  cl_wavread_close(Segment name)
-          cl_wavread_close_GEN_0000, address 02D5 ,length 0003, class  CODE_OVLY
+          cl_wavread_close_GEN_0000, address 02DB ,length 0003, class  CODE_OVLY
 
 -----------------Module:  cl_wavread_frame_rate(Segment name)
-     cl_wavread_frame_rate_GEN_0000, address 02D8 ,length 0003, class  CODE_OVLY
+     cl_wavread_frame_rate_GEN_0000, address 02DE ,length 0003, class  CODE_OVLY
 
 -----------------Module:  cl_wavread_getnchannels(Segment name)
-   cl_wavread_getnchannels_GEN_0000, address 02DB ,length 0003, class  CODE_OVLY
+   cl_wavread_getnchannels_GEN_0000, address 02E1 ,length 0003, class  CODE_OVLY
 
 -----------------Module:  cl_wavread_number_of_frames(Segment name)
-cl_wavread_number_of_frames_GEN_0000, address 02DE ,length 0003, class  CODE_OVLY
+cl_wavread_number_of_frames_GEN_0000, address 02E4 ,length 0003, class  CODE_OVLY
 
 -----------------Module:  cl_wavread_open(Segment name)
-           cl_wavread_open_GEN_0000, address 02E1 ,length 0003, class  CODE_OVLY
+           cl_wavread_open_GEN_0000, address 02E7 ,length 0003, class  CODE_OVLY
 
 -----------------Module:  cl_wavread_recvsample(Segment name)
-     cl_wavread_recvsample_GEN_0000, address 02E4 ,length 0003, class  CODE_OVLY
+     cl_wavread_recvsample_GEN_0000, address 02EA ,length 0003, class  CODE_OVLY
 
 -----------------Module:  cl_wavwrite_close(Segment name)
-         cl_wavwrite_close_GEN_0000, address 02E7 ,length 0003, class  CODE_OVLY
+         cl_wavwrite_close_GEN_0000, address 02ED ,length 0003, class  CODE_OVLY
 
 -----------------Module:  cl_wavwrite_open(Segment name)
-          cl_wavwrite_open_GEN_0000, address 02EA ,length 0003, class  CODE_OVLY
+          cl_wavwrite_open_GEN_0000, address 02F0 ,length 0003, class  CODE_OVLY
 
 -----------------Module:  cl_wavwrite_sendsample(Segment name)
-    cl_wavwrite_sendsample_GEN_0000, address 02ED ,length 0003, class  CODE_OVLY
+    cl_wavwrite_sendsample_GEN_0000, address 02F3 ,length 0003, class  CODE_OVLY
 
 -----------------Module:  printf(Segment name)
-                    printf_GEN_0000, address 02F0 ,length 0003, class  CODE_OVLY
+                    printf_GEN_0000, address 02F6 ,length 0003, class  CODE_OVLY
 
 ---------------SYMBOL(global symbols)							FILE						SEGMENT							CLASS		ADDRESS
 
@@ -332,11 +335,13 @@ X_VX_SRC_4_11_Coef_Phase_Tbl_End_P_1	C:\CirrusDSP\lib\dsplib\cl_src_tables_asm	 
                    __CLASS_F_X_OVLY	                      CLINK RESERVED	                -----------			   -----------			0001
                         __CLASS_F_Y	                      CLINK RESERVED	                -----------			   -----------			0000
                    __CLASS_F_Y_OVLY	                      CLINK RESERVED	                -----------			   -----------			0000
-                     __CLASS_L_CODE	                      CLINK RESERVED	                -----------			   -----------			02F2
-                __CLASS_L_CODE_OVLY	                      CLINK RESERVED	                -----------			   -----------			02F2
-                        __CLASS_L_X	                      CLINK RESERVED	                -----------			   -----------			0918
-                  __CLASS_L_X_AVAIL	                      CLINK RESERVED	                -----------			   -----------			0118
-                   __CLASS_L_X_OVLY	                      CLINK RESERVED	                -----------			   -----------			0118
+                     __CLASS_L_CODE	                      CLINK RESERVED	                -----------			   -----------			02F8
+                __CLASS_L_CODE_OVLY	                      CLINK RESERVED	                -----------			   -----------			02F8
+                        __CLASS_L_X	                      CLINK RESERVED	                -----------			   -----------			0889
+                  __CLASS_L_X_AVAIL	                      CLINK RESERVED	                -----------			   -----------			0089
+                   __CLASS_L_X_OVLY	                      CLINK RESERVED	                -----------			   -----------			0089
+                        __CLASS_L_Y	                      CLINK RESERVED	                -----------			   -----------			00A0
+                   __CLASS_L_Y_OVLY	                      CLINK RESERVED	                -----------			   -----------			00A0
                      __CLASS_S_ARGV	                      CLINK RESERVED	                -----------			   -----------			FC00
                      __CLASS_S_CODE	                      CLINK RESERVED	                -----------			   -----------			0000
                 __CLASS_S_CODE_OVLY	                      CLINK RESERVED	                -----------			   -----------			0000
@@ -350,7 +355,7 @@ X_VX_SRC_4_11_Coef_Phase_Tbl_End_P_1	C:\CirrusDSP\lib\dsplib\cl_src_tables_asm	 
               __CL_GPI_ISR_ASM_CODE	C:\CirrusDSP\lib\dsplib\cl_gpi_isr_asm	         __CL_GPI_ISR_ASM_CODE		        CODE_OVLY		FFFFFFFF
 __CL_OS_REGISTER_GPI_HANDLER_ASM_CODE	C:\CirrusDSP\lib\dsplib\cl_os_register_gpi_handler_asm	__CL_OS_REGISTER_GPI_HANDLER_ASM_CODE		        CODE_OVLY		FFFFFFFF
   __CL_OS_REGISTER_GPI_HANDLER_CODE	C:\CirrusDSP\lib\dsplib\cl_os_register_gpi_handler	__CL_OS_REGISTER_GPI_HANDLER_CODE		        CODE_OVLY		FFFFFFFF
-                             __INIT	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/main	                        __INIT		             CODE		02F3
+                             __INIT	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/main	                        __INIT		             CODE		02F9
                     __Intrinsic_abs	                C:\CirrusDSP\lib\abs	                  abs_GEN_0000		        CODE_OVLY		FFFFFFFF
                   __Intrinsic_abshk	              C:\CirrusDSP\lib\abshk	                abshk_GEN_0000		        CODE_OVLY		FFFFFFFF
                   __Intrinsic_abshr	              C:\CirrusDSP\lib\abshr	                abshr_GEN_0000		        CODE_OVLY		FFFFFFFF
@@ -434,7 +439,7 @@ __CL_OS_REGISTER_GPI_HANDLER_ASM_CODE	C:\CirrusDSP\lib\dsplib\cl_os_register_gpi
                    __add_sat_laccum	     C:\CirrusDSP\lib\add_sat_laccum	       add_sat_laccum_GEN_0000		        CODE_OVLY		FFFFFFFF
                   __add_sat_ulaccum	    C:\CirrusDSP\lib\add_sat_ulaccum	      add_sat_ulaccum_GEN_0000		        CODE_OVLY		FFFFFFFF
                     __cjump_ulaccum	      C:\CirrusDSP\lib\cjump_ulaccum	        cjump_ulaccum_GEN_0000		        CODE_OVLY		FFFFFFFF
-                              __div	                C:\CirrusDSP\lib\div	                  div_GEN_0000		        CODE_OVLY		0289
+                              __div	                C:\CirrusDSP\lib\div	                  div_GEN_0000		        CODE_OVLY		028F
                         __div_llong	          C:\CirrusDSP\lib\div_llong	            div_llong_GEN_0000		        CODE_OVLY		FFFFFFFF
                    __div_sat_laccum	     C:\CirrusDSP\lib\div_sat_laccum	       div_sat_laccum_GEN_0000		        CODE_OVLY		FFFFFFFF
                   __div_sat_ulaccum	    C:\CirrusDSP\lib\div_sat_ulaccum	      div_sat_ulaccum_GEN_0000		        CODE_OVLY		FFFFFFFF
@@ -479,13 +484,13 @@ __CL_OS_REGISTER_GPI_HANDLER_ASM_CODE	C:\CirrusDSP\lib\dsplib\cl_os_register_gpi
                     __rshift_laccum	      C:\CirrusDSP\lib\rshift_laccum	        rshift_laccum_GEN_0000		        CODE_OVLY		FFFFFFFF
                      __rshift_llong	       C:\CirrusDSP\lib\rshift_llong	         rshift_llong_GEN_0000		        CODE_OVLY		FFFFFFFF
                    __rshift_ulaccum	     C:\CirrusDSP\lib\rshift_ulaccum	       rshift_ulaccum_GEN_0000		        CODE_OVLY		FFFFFFFF
-                            __start	               C:\CirrusDSP\lib\crt0	                 crt0_GEN_0003		        CODE_OVLY		02CA
+                            __start	               C:\CirrusDSP\lib\crt0	                 crt0_GEN_0003		        CODE_OVLY		02D0
                    __sub_sat_laccum	     C:\CirrusDSP\lib\sub_sat_laccum	       sub_sat_laccum_GEN_0000		        CODE_OVLY		FFFFFFFF
                   __sub_sat_ulaccum	    C:\CirrusDSP\lib\sub_sat_ulaccum	      sub_sat_ulaccum_GEN_0000		        CODE_OVLY		FFFFFFFF
                   __uaccum_to_accum	    C:\CirrusDSP\lib\uaccum_to_accum	      uaccum_to_accum_GEN_0000		        CODE_OVLY		FFFFFFFF
                   __uaccum_to_fract	    C:\CirrusDSP\lib\uaccum_to_fract	      uaccum_to_fract_GEN_0000		        CODE_OVLY		FFFFFFFF
                  __uaccum_to_lfract	   C:\CirrusDSP\lib\uaccum_to_lfract	     uaccum_to_lfract_GEN_0000		        CODE_OVLY		FFFFFFFF
-                             __udiv	               C:\CirrusDSP\lib\udiv	                 udiv_GEN_0000		        CODE_OVLY		019D
+                             __udiv	               C:\CirrusDSP\lib\udiv	                 udiv_GEN_0000		        CODE_OVLY		01A3
                        __udiv_llong	         C:\CirrusDSP\lib\udiv_llong	           udiv_llong_GEN_0000		        CODE_OVLY		FFFFFFFF
                     __uint_to_accum	      C:\CirrusDSP\lib\uint_to_accum	        uint_to_accum_GEN_0000		        CODE_OVLY		FFFFFFFF
                     __uint_to_fract	      C:\CirrusDSP\lib\uint_to_fract	        uint_to_fract_GEN_0000		        CODE_OVLY		FFFFFFFF
@@ -519,7 +524,7 @@ __CL_OS_REGISTER_GPI_HANDLER_ASM_CODE	C:\CirrusDSP\lib\dsplib\cl_os_register_gpi
                              _abslk	              C:\CirrusDSP\lib\abslk	                abslk_GEN_0000		        CODE_OVLY		FFFFFFFF
                              _abslr	              C:\CirrusDSP\lib\abslr	                abslr_GEN_0000		        CODE_OVLY		FFFFFFFF
                               _absr	               C:\CirrusDSP\lib\absr	                 absr_GEN_0000		        CODE_OVLY		FFFFFFFF
-                 _audio_invert_init	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/inverter	             inverter_GEN_0002		        CODE_OVLY		0217
+                 _audio_invert_init	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/inverter	             inverter_GEN_0002		        CODE_OVLY		021D
                           _bitsgetg	           C:\CirrusDSP\lib\bitsgetg	             bitsgetg_GEN_0000		        CODE_OVLY		FFFFFFFF
                          _bitsgethi	          C:\CirrusDSP\lib\bitsgethi	            bitsgethi_GEN_0000		        CODE_OVLY		FFFFFFFF
                          _bitsgetlo	          C:\CirrusDSP\lib\bitsgetlo	            bitsgetlo_GEN_0000		        CODE_OVLY		FFFFFFFF
@@ -527,7 +532,9 @@ __CL_OS_REGISTER_GPI_HANDLER_ASM_CODE	C:\CirrusDSP\lib\dsplib\cl_os_register_gpi
                              _bitsr	              C:\CirrusDSP\lib\bitsr	                bitsr_GEN_0000		        CODE_OVLY		FFFFFFFF
                            _bitsuhr	            C:\CirrusDSP\lib\bitsuhr	              bitsuhr_GEN_0000		        CODE_OVLY		FFFFFFFF
                             _bitsur	             C:\CirrusDSP\lib\bitsur	               bitsur_GEN_0000		        CODE_OVLY		FFFFFFFF
-                           _c_stack	    C:\CirrusDSP\lib\simulator_stack	      simulator_stack_GEN_0000		                X		0119
+                           _bufferL	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0003		           Y_OVLY		0081
+                           _bufferR	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0004		           Y_OVLY		0091
+                           _c_stack	    C:\CirrusDSP\lib\simulator_stack	      simulator_stack_GEN_0000		                X		008A
               _cl_I2C_Abort_Message	C:\CirrusDSP\lib\dsplib\cl_i2c_routines	          CL_I2C_ROUTINES_CODE		        CODE_OVLY		00B2
                _cl_I2C_Command_Word	C:\CirrusDSP\lib\dsplib\cl_i2c_routines	          CL_I2C_ROUTINES_CODE		        CODE_OVLY		00AD
         _cl_I2C_Nonblocking_ReadMsg	C:\CirrusDSP\lib\dsplib\cl_i2c_routines	          CL_I2C_ROUTINES_CODE		        CODE_OVLY		002A
@@ -649,21 +656,21 @@ _cl_input_window_overlap_50_percent	   C:\CirrusDSP\lib\dsplib\cl_window	       
                _cl_tdf_init_buffers	C:\CirrusDSP\lib\dsplib\cl_td_framework	          CL_TD_FRAMEWORK_CODE		        CODE_OVLY		002E
                  _cl_tdf_postmalloc	C:\CirrusDSP\lib\dsplib\cl_td_framework	          CL_TD_FRAMEWORK_CODE		        CODE_OVLY		008F
                   _cl_tdf_premalloc	C:\CirrusDSP\lib\dsplib\cl_td_framework	          CL_TD_FRAMEWORK_CODE		        CODE_OVLY		005D
-        _cl_wavread_bits_per_sample	C:\CirrusDSP\lib\dsplib\crystal32\cl_wavread_bits_per_sample	cl_wavread_bits_per_sample_GEN_0000		        CODE_OVLY		02D2
-                  _cl_wavread_close	C:\CirrusDSP\lib\dsplib\crystal32\cl_wavread_close	     cl_wavread_close_GEN_0000		        CODE_OVLY		02D5
+        _cl_wavread_bits_per_sample	C:\CirrusDSP\lib\dsplib\crystal32\cl_wavread_bits_per_sample	cl_wavread_bits_per_sample_GEN_0000		        CODE_OVLY		02D8
+                  _cl_wavread_close	C:\CirrusDSP\lib\dsplib\crystal32\cl_wavread_close	     cl_wavread_close_GEN_0000		        CODE_OVLY		02DB
                     _cl_wavread_eof	C:\CirrusDSP\lib\dsplib\crystal32\cl_wavread_eof	       cl_wavread_eof_GEN_0000		        CODE_OVLY		FFFFFFFF
-             _cl_wavread_frame_rate	C:\CirrusDSP\lib\dsplib\crystal32\cl_wavread_frame_rate	cl_wavread_frame_rate_GEN_0000		        CODE_OVLY		02D8
-           _cl_wavread_getnchannels	C:\CirrusDSP\lib\dsplib\crystal32\cl_wavread_getnchannels	cl_wavread_getnchannels_GEN_0000		        CODE_OVLY		02DB
-       _cl_wavread_number_of_frames	C:\CirrusDSP\lib\dsplib\crystal32\cl_wavread_number_of_frames	cl_wavread_number_of_frames_GEN_0000		        CODE_OVLY		02DE
-                   _cl_wavread_open	C:\CirrusDSP\lib\dsplib\crystal32\cl_wavread_open	      cl_wavread_open_GEN_0000		        CODE_OVLY		02E1
-             _cl_wavread_recvsample	C:\CirrusDSP\lib\dsplib\crystal32\cl_wavread_recvsample	cl_wavread_recvsample_GEN_0000		        CODE_OVLY		02E4
+             _cl_wavread_frame_rate	C:\CirrusDSP\lib\dsplib\crystal32\cl_wavread_frame_rate	cl_wavread_frame_rate_GEN_0000		        CODE_OVLY		02DE
+           _cl_wavread_getnchannels	C:\CirrusDSP\lib\dsplib\crystal32\cl_wavread_getnchannels	cl_wavread_getnchannels_GEN_0000		        CODE_OVLY		02E1
+       _cl_wavread_number_of_frames	C:\CirrusDSP\lib\dsplib\crystal32\cl_wavread_number_of_frames	cl_wavread_number_of_frames_GEN_0000		        CODE_OVLY		02E4
+                   _cl_wavread_open	C:\CirrusDSP\lib\dsplib\crystal32\cl_wavread_open	      cl_wavread_open_GEN_0000		        CODE_OVLY		02E7
+             _cl_wavread_recvsample	C:\CirrusDSP\lib\dsplib\crystal32\cl_wavread_recvsample	cl_wavread_recvsample_GEN_0000		        CODE_OVLY		02EA
           _cl_wavread_sample_number	C:\CirrusDSP\lib\dsplib\crystal32\cl_wavread_sample_number	cl_wavread_sample_number_GEN_0000		        CODE_OVLY		FFFFFFFF
-                 _cl_wavwrite_close	C:\CirrusDSP\lib\dsplib\crystal32\cl_wavwrite_close	    cl_wavwrite_close_GEN_0000		        CODE_OVLY		02E7
-                  _cl_wavwrite_open	C:\CirrusDSP\lib\dsplib\crystal32\cl_wavwrite_open	     cl_wavwrite_open_GEN_0000		        CODE_OVLY		02EA
+                 _cl_wavwrite_close	C:\CirrusDSP\lib\dsplib\crystal32\cl_wavwrite_close	    cl_wavwrite_close_GEN_0000		        CODE_OVLY		02ED
+                  _cl_wavwrite_open	C:\CirrusDSP\lib\dsplib\crystal32\cl_wavwrite_open	     cl_wavwrite_open_GEN_0000		        CODE_OVLY		02F0
          _cl_wavwrite_sample_number	C:\CirrusDSP\lib\dsplib\crystal32\cl_wavwrite_sample_number	cl_wavwrite_sample_number_GEN_0000		        CODE_OVLY		FFFFFFFF
-            _cl_wavwrite_sendsample	C:\CirrusDSP\lib\dsplib\crystal32\cl_wavwrite_sendsample	cl_wavwrite_sendsample_GEN_0000		        CODE_OVLY		02ED
-                         _deegreTmp	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/main	                 main_GEN_0000		           X_OVLY		0112
-                              _exit	               C:\CirrusDSP\lib\exit	                 exit_GEN_0000		        CODE_OVLY		02CE
+            _cl_wavwrite_sendsample	C:\CirrusDSP\lib\dsplib\crystal32\cl_wavwrite_sendsample	cl_wavwrite_sendsample_GEN_0000		        CODE_OVLY		02F3
+                         _deegreTmp	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/main	                 main_GEN_0000		           X_OVLY		0083
+                              _exit	               C:\CirrusDSP\lib\exit	                 exit_GEN_0000		        CODE_OVLY		02D4
                             _fclose	C:\CirrusDSP\lib\dsplib\crystal32\fclose	               fclose_GEN_0000		        CODE_OVLY		FFFFFFFF
                            _fconfig	C:\CirrusDSP\lib\dsplib\crystal32\fconfig	              fconfig_GEN_0000		        CODE_OVLY		FFFFFFFF
                               _feof	C:\CirrusDSP\lib\dsplib\crystal32\feof	                 feof_GEN_0000		        CODE_OVLY		FFFFFFFF
@@ -682,14 +689,14 @@ _cl_input_window_overlap_50_percent	   C:\CirrusDSP\lib\dsplib\cl_window	       
                             _fwrite	C:\CirrusDSP\lib\dsplib\crystal32\fwrite_x	             fwrite_x_GEN_0000		        CODE_OVLY		FFFFFFFF
                           _fwrite_x	C:\CirrusDSP\lib\dsplib\crystal32\fwrite_x	             fwrite_x_GEN_0000		        CODE_OVLY		FFFFFFFF
                           _fwrite_y	C:\CirrusDSP\lib\dsplib\crystal32\fwrite_y	             fwrite_y_GEN_0000		        CODE_OVLY		FFFFFFFF
-                           _gainTmp	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/main	                 main_GEN_0001		           X_OVLY		0113
+                           _gainTmp	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/main	                 main_GEN_0001		           X_OVLY		0084
                           _get_mr_r	           C:\CirrusDSP\lib\get_mr_r	             get_mr_r_GEN_0000		        CODE_OVLY		FFFFFFFF
                           _get_mr_s	           C:\CirrusDSP\lib\get_mr_s	             get_mr_s_GEN_0000		        CODE_OVLY		FFFFFFFF
                          _get_mr_sr	          C:\CirrusDSP\lib\get_mr_sr	            get_mr_sr_GEN_0000		        CODE_OVLY		FFFFFFFF
                               _getc	C:\CirrusDSP\lib\dsplib\crystal32\fgetc	                fgetc_GEN_0000		        CODE_OVLY		FFFFFFFF
-        _gst_audio_invert_transform	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/inverter	             inverter_GEN_0002		        CODE_OVLY		0230
+        _gst_audio_invert_transform	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/inverter	             inverter_GEN_0002		        CODE_OVLY		0236
                             _hrbits	             C:\CirrusDSP\lib\hrbits	               hrbits_GEN_0000		        CODE_OVLY		FFFFFFFF
-                          _inverter	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/main	                 main_GEN_0002		           X_OVLY		0110
+                          _inverter	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/main	                 main_GEN_0002		           X_OVLY		0081
                               _itoa	               C:\CirrusDSP\lib\itoa	                 itoa_GEN_0001		        CODE_OVLY		FFFFFFFF
                               _labs	               C:\CirrusDSP\lib\labs	                 labs_GEN_0000		        CODE_OVLY		FFFFFFFF
                              _llabs	              C:\CirrusDSP\lib\llabs	                llabs_GEN_0000		        CODE_OVLY		FFFFFFFF
@@ -703,8 +710,8 @@ _cl_input_window_overlap_50_percent	   C:\CirrusDSP\lib\dsplib\cl_window	       
                             _memset	           C:\CirrusDSP\lib\memset_x	             memset_x_GEN_0000		        CODE_OVLY		FFFFFFFF
                           _memset_x	           C:\CirrusDSP\lib\memset_x	             memset_x_GEN_0000		        CODE_OVLY		FFFFFFFF
                           _memset_y	           C:\CirrusDSP\lib\memset_y	             memset_y_GEN_0000		        CODE_OVLY		FFFFFFFF
-                            _printf	C:\CirrusDSP\lib\dsplib\crystal32\printf	               printf_GEN_0000		        CODE_OVLY		02F0
-                        _processing	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0003		        CODE_OVLY		00D6
+                            _printf	C:\CirrusDSP\lib\dsplib\crystal32\printf	               printf_GEN_0000		        CODE_OVLY		02F6
+                        _processing	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0005		        CODE_OVLY		00D6
                               _putc	C:\CirrusDSP\lib\dsplib\crystal32\fputc	                fputc_GEN_0000		        CODE_OVLY		FFFFFFFF
                            _putchar	C:\CirrusDSP\lib\dsplib\crystal32\putchar	              putchar_GEN_0000		        CODE_OVLY		FFFFFFFF
                               _puts	C:\CirrusDSP\lib\dsplib\crystal32\puts_x	               puts_x_GEN_0000		        CODE_OVLY		FFFFFFFF
@@ -714,14 +721,14 @@ _cl_input_window_overlap_50_percent	   C:\CirrusDSP\lib\dsplib\cl_window	       
                              _rgetg	              C:\CirrusDSP\lib\rgetg	                rgetg_GEN_0000		        CODE_OVLY		FFFFFFFF
                             _rgethi	             C:\CirrusDSP\lib\rgethi	               rgethi_GEN_0000		        CODE_OVLY		FFFFFFFF
                             _rgetlo	             C:\CirrusDSP\lib\rgetlo	               rgetlo_GEN_0000		        CODE_OVLY		FFFFFFFF
-                      _sampleBuffer	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/main	                 main_GEN_0003		           X_OVLY		0001
+                      _sampleBuffer	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/main	                 main_GEN_0003		           Y_OVLY		0001
                           _set_mr_r	           C:\CirrusDSP\lib\set_mr_r	             set_mr_r_GEN_0000		        CODE_OVLY		FFFFFFFF
                           _set_mr_s	           C:\CirrusDSP\lib\set_mr_s	             set_mr_s_GEN_0000		        CODE_OVLY		FFFFFFFF
                          _set_mr_sr	          C:\CirrusDSP\lib\set_mr_sr	            set_mr_sr_GEN_0000		        CODE_OVLY		FFFFFFFF
                            _sprintf	C:\CirrusDSP\lib\dsplib\crystal32\sprintf	              sprintf_GEN_0000		        CODE_OVLY		FFFFFFFF
                             _strcmp	             C:\CirrusDSP\lib\strcmp	               strcmp_GEN_0000		        CODE_OVLY		FFFFFFFF
-                            _strcpy	         C:\CirrusDSP\lib\strcpy_x2x	           strcpy_x2x_GEN_0000		        CODE_OVLY		02C3
-                        _strcpy_x2x	         C:\CirrusDSP\lib\strcpy_x2x	           strcpy_x2x_GEN_0000		        CODE_OVLY		02C3
+                            _strcpy	         C:\CirrusDSP\lib\strcpy_x2x	           strcpy_x2x_GEN_0000		        CODE_OVLY		02C9
+                        _strcpy_x2x	         C:\CirrusDSP\lib\strcpy_x2x	           strcpy_x2x_GEN_0000		        CODE_OVLY		02C9
                         _strcpy_x2y	         C:\CirrusDSP\lib\strcpy_x2y	           strcpy_x2y_GEN_0000		        CODE_OVLY		FFFFFFFF
                         _strcpy_y2x	         C:\CirrusDSP\lib\strcpy_y2x	           strcpy_y2x_GEN_0000		        CODE_OVLY		FFFFFFFF
                         _strcpy_y2y	         C:\CirrusDSP\lib\strcpy_y2y	           strcpy_y2y_GEN_0000		        CODE_OVLY		FFFFFFFF
@@ -870,29 +877,29 @@ cl_os_register_gpi_handler_asm_GEN_0000	C:\CirrusDSP\lib\dsplib\cl_os_register_g
                 cl_tdf_init_buffers	C:\CirrusDSP\lib\dsplib\crystal32\cl_td_framework_asm	      CL_TD_FRAMEWORK_ASM_CODE		        CODE_OVLY		0051
                   cl_tdf_postmalloc	C:\CirrusDSP\lib\dsplib\crystal32\cl_td_framework_asm	      CL_TD_FRAMEWORK_ASM_CODE		        CODE_OVLY		0089
                    cl_tdf_premalloc	C:\CirrusDSP\lib\dsplib\crystal32\cl_td_framework_asm	      CL_TD_FRAMEWORK_ASM_CODE		        CODE_OVLY		0016
-cl_wavread_bits_per_sample_GEN_0000	C:\CirrusDSP\lib\dsplib\crystal32\cl_wavread_bits_per_sample	cl_wavread_bits_per_sample_GEN_0000		        CODE_OVLY		02D2
-          cl_wavread_close_GEN_0000	C:\CirrusDSP\lib\dsplib\crystal32\cl_wavread_close	     cl_wavread_close_GEN_0000		        CODE_OVLY		02D5
+cl_wavread_bits_per_sample_GEN_0000	C:\CirrusDSP\lib\dsplib\crystal32\cl_wavread_bits_per_sample	cl_wavread_bits_per_sample_GEN_0000		        CODE_OVLY		02D8
+          cl_wavread_close_GEN_0000	C:\CirrusDSP\lib\dsplib\crystal32\cl_wavread_close	     cl_wavread_close_GEN_0000		        CODE_OVLY		02DB
             cl_wavread_eof_GEN_0000	C:\CirrusDSP\lib\dsplib\crystal32\cl_wavread_eof	       cl_wavread_eof_GEN_0000		        CODE_OVLY		FFFFFFFF
-     cl_wavread_frame_rate_GEN_0000	C:\CirrusDSP\lib\dsplib\crystal32\cl_wavread_frame_rate	cl_wavread_frame_rate_GEN_0000		        CODE_OVLY		02D8
-   cl_wavread_getnchannels_GEN_0000	C:\CirrusDSP\lib\dsplib\crystal32\cl_wavread_getnchannels	cl_wavread_getnchannels_GEN_0000		        CODE_OVLY		02DB
-cl_wavread_number_of_frames_GEN_0000	C:\CirrusDSP\lib\dsplib\crystal32\cl_wavread_number_of_frames	cl_wavread_number_of_frames_GEN_0000		        CODE_OVLY		02DE
-           cl_wavread_open_GEN_0000	C:\CirrusDSP\lib\dsplib\crystal32\cl_wavread_open	      cl_wavread_open_GEN_0000		        CODE_OVLY		02E1
-     cl_wavread_recvsample_GEN_0000	C:\CirrusDSP\lib\dsplib\crystal32\cl_wavread_recvsample	cl_wavread_recvsample_GEN_0000		        CODE_OVLY		02E4
+     cl_wavread_frame_rate_GEN_0000	C:\CirrusDSP\lib\dsplib\crystal32\cl_wavread_frame_rate	cl_wavread_frame_rate_GEN_0000		        CODE_OVLY		02DE
+   cl_wavread_getnchannels_GEN_0000	C:\CirrusDSP\lib\dsplib\crystal32\cl_wavread_getnchannels	cl_wavread_getnchannels_GEN_0000		        CODE_OVLY		02E1
+cl_wavread_number_of_frames_GEN_0000	C:\CirrusDSP\lib\dsplib\crystal32\cl_wavread_number_of_frames	cl_wavread_number_of_frames_GEN_0000		        CODE_OVLY		02E4
+           cl_wavread_open_GEN_0000	C:\CirrusDSP\lib\dsplib\crystal32\cl_wavread_open	      cl_wavread_open_GEN_0000		        CODE_OVLY		02E7
+     cl_wavread_recvsample_GEN_0000	C:\CirrusDSP\lib\dsplib\crystal32\cl_wavread_recvsample	cl_wavread_recvsample_GEN_0000		        CODE_OVLY		02EA
   cl_wavread_sample_number_GEN_0000	C:\CirrusDSP\lib\dsplib\crystal32\cl_wavread_sample_number	cl_wavread_sample_number_GEN_0000		        CODE_OVLY		FFFFFFFF
-         cl_wavwrite_close_GEN_0000	C:\CirrusDSP\lib\dsplib\crystal32\cl_wavwrite_close	    cl_wavwrite_close_GEN_0000		        CODE_OVLY		02E7
-          cl_wavwrite_open_GEN_0000	C:\CirrusDSP\lib\dsplib\crystal32\cl_wavwrite_open	     cl_wavwrite_open_GEN_0000		        CODE_OVLY		02EA
+         cl_wavwrite_close_GEN_0000	C:\CirrusDSP\lib\dsplib\crystal32\cl_wavwrite_close	    cl_wavwrite_close_GEN_0000		        CODE_OVLY		02ED
+          cl_wavwrite_open_GEN_0000	C:\CirrusDSP\lib\dsplib\crystal32\cl_wavwrite_open	     cl_wavwrite_open_GEN_0000		        CODE_OVLY		02F0
  cl_wavwrite_sample_number_GEN_0000	C:\CirrusDSP\lib\dsplib\crystal32\cl_wavwrite_sample_number	cl_wavwrite_sample_number_GEN_0000		        CODE_OVLY		FFFFFFFF
-    cl_wavwrite_sendsample_GEN_0000	C:\CirrusDSP\lib\dsplib\crystal32\cl_wavwrite_sendsample	cl_wavwrite_sendsample_GEN_0000		        CODE_OVLY		02ED
+    cl_wavwrite_sendsample_GEN_0000	C:\CirrusDSP\lib\dsplib\crystal32\cl_wavwrite_sendsample	cl_wavwrite_sendsample_GEN_0000		        CODE_OVLY		02F3
               copy_brick_to_syncbuf	C:\CirrusDSP\lib\dsplib\crystal32\cl_td_framework_asm	      CL_TD_FRAMEWORK_ASM_CODE		        CODE_OVLY		00D3
                       crt0_GEN_0000	               C:\CirrusDSP\lib\crt0	                 crt0_GEN_0000		                X		0000
                       crt0_GEN_0001	               C:\CirrusDSP\lib\crt0	                 crt0_GEN_0001		                Y		0000
                       crt0_GEN_0002	               C:\CirrusDSP\lib\crt0	                 crt0_GEN_0002		             CODE		0000
-                      crt0_GEN_0003	               C:\CirrusDSP\lib\crt0	                 crt0_GEN_0003		        CODE_OVLY		02CA
-                       div_GEN_0000	                C:\CirrusDSP\lib\div	                  div_GEN_0000		        CODE_OVLY		0289
+                      crt0_GEN_0003	               C:\CirrusDSP\lib\crt0	                 crt0_GEN_0003		        CODE_OVLY		02D0
+                       div_GEN_0000	                C:\CirrusDSP\lib\div	                  div_GEN_0000		        CODE_OVLY		028F
                  div_llong_GEN_0000	          C:\CirrusDSP\lib\div_llong	            div_llong_GEN_0000		        CODE_OVLY		FFFFFFFF
             div_sat_laccum_GEN_0000	     C:\CirrusDSP\lib\div_sat_laccum	       div_sat_laccum_GEN_0000		        CODE_OVLY		FFFFFFFF
            div_sat_ulaccum_GEN_0000	    C:\CirrusDSP\lib\div_sat_ulaccum	      div_sat_ulaccum_GEN_0000		        CODE_OVLY		FFFFFFFF
-                      exit_GEN_0000	               C:\CirrusDSP\lib\exit	                 exit_GEN_0000		        CODE_OVLY		02CE
+                      exit_GEN_0000	               C:\CirrusDSP\lib\exit	                 exit_GEN_0000		        CODE_OVLY		02D4
                     fclose_GEN_0000	C:\CirrusDSP\lib\dsplib\crystal32\fclose	               fclose_GEN_0000		        CODE_OVLY		FFFFFFFF
                    fconfig_GEN_0000	C:\CirrusDSP\lib\dsplib\crystal32\fconfig	              fconfig_GEN_0000		        CODE_OVLY		FFFFFFFF
                       feof_GEN_0000	C:\CirrusDSP\lib\dsplib\crystal32\feof	                 feof_GEN_0000		        CODE_OVLY		FFFFFFFF
@@ -926,9 +933,9 @@ cl_wavread_number_of_frames_GEN_0000	C:\CirrusDSP\lib\dsplib\crystal32\cl_wavrea
             int_to_ulfract_GEN_0000	     C:\CirrusDSP\lib\int_to_ulfract	       int_to_ulfract_GEN_0000		        CODE_OVLY		FFFFFFFF
                     intvec_GEN_0000	             C:\CirrusDSP\lib\intvec	               intvec_GEN_0000		             CODE		0000
                     intvec_GEN_0001	             C:\CirrusDSP\lib\intvec	               intvec_GEN_0001		             CODE		0024
-                  inverter_GEN_0000	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/inverter	             inverter_GEN_0000		           X_OVLY		0114
-                  inverter_GEN_0001	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/inverter	             inverter_GEN_0001		           X_OVLY		0115
-                  inverter_GEN_0002	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/inverter	             inverter_GEN_0002		        CODE_OVLY		0217
+                  inverter_GEN_0000	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/inverter	             inverter_GEN_0000		           X_OVLY		0085
+                  inverter_GEN_0001	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/inverter	             inverter_GEN_0001		           X_OVLY		0086
+                  inverter_GEN_0002	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/inverter	             inverter_GEN_0002		        CODE_OVLY		021D
                       itoa_GEN_0000	               C:\CirrusDSP\lib\itoa	                 itoa_GEN_0000		           X_OVLY		FFFFFFFF
                       itoa_GEN_0001	               C:\CirrusDSP\lib\itoa	                 itoa_GEN_0001		        CODE_OVLY		FFFFFFFF
                       labs_GEN_0000	               C:\CirrusDSP\lib\labs	                 labs_GEN_0000		        CODE_OVLY		FFFFFFFF
@@ -953,14 +960,14 @@ cl_wavread_number_of_frames_GEN_0000	C:\CirrusDSP\lib\dsplib\crystal32\cl_wavrea
          lshift_sat_laccum_GEN_0000	  C:\CirrusDSP\lib\lshift_sat_laccum	    lshift_sat_laccum_GEN_0000		        CODE_OVLY		FFFFFFFF
         lshift_sat_ulaccum_GEN_0000	 C:\CirrusDSP\lib\lshift_sat_ulaccum	   lshift_sat_ulaccum_GEN_0000		        CODE_OVLY		FFFFFFFF
                 lt_ulaccum_GEN_0000	         C:\CirrusDSP\lib\lt_ulaccum	           lt_ulaccum_GEN_0000		        CODE_OVLY		FFFFFFFF
-                      main_GEN_0000	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/main	                 main_GEN_0000		           X_OVLY		0112
-                      main_GEN_0001	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/main	                 main_GEN_0001		           X_OVLY		0113
-                      main_GEN_0002	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/main	                 main_GEN_0002		           X_OVLY		0110
-                      main_GEN_0003	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/main	                 main_GEN_0003		           X_OVLY		0001
-                      main_GEN_0004	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/main	                 main_GEN_0004		           X_OVLY		0081
-                      main_GEN_0005	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/main	                 main_GEN_0005		           X_OVLY		00B3
-                      main_GEN_0006	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/main	                 main_GEN_0006		           X_OVLY		00F5
-                      main_GEN_0007	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/main	                 main_GEN_0007		           X_OVLY		00D4
+                      main_GEN_0000	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/main	                 main_GEN_0000		           X_OVLY		0083
+                      main_GEN_0001	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/main	                 main_GEN_0001		           X_OVLY		0084
+                      main_GEN_0002	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/main	                 main_GEN_0002		           X_OVLY		0081
+                      main_GEN_0003	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/main	                 main_GEN_0003		           Y_OVLY		0001
+                      main_GEN_0004	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/main	                 main_GEN_0004		           X_OVLY		0001
+                      main_GEN_0005	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/main	                 main_GEN_0005		           X_OVLY		0024
+                      main_GEN_0006	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/main	                 main_GEN_0006		           X_OVLY		0066
+                      main_GEN_0007	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/main	                 main_GEN_0007		           X_OVLY		0045
                       main_GEN_0008	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/main	                 main_GEN_0008		        CODE_OVLY		0001
                 memcpy_x2x_GEN_0000	         C:\CirrusDSP\lib\memcpy_x2x	           memcpy_x2x_GEN_0000		        CODE_OVLY		FFFFFFFF
                 memcpy_x2y_GEN_0000	         C:\CirrusDSP\lib\memcpy_x2y	           memcpy_x2y_GEN_0000		        CODE_OVLY		FFFFFFFF
@@ -975,11 +982,13 @@ cl_wavread_number_of_frames_GEN_0000	C:\CirrusDSP\lib\dsplib\crystal32\cl_wavrea
             mul_sat_laccum_GEN_0000	     C:\CirrusDSP\lib\mul_sat_laccum	       mul_sat_laccum_GEN_0000		        CODE_OVLY		FFFFFFFF
            mul_sat_ulaccum_GEN_0000	    C:\CirrusDSP\lib\mul_sat_ulaccum	      mul_sat_ulaccum_GEN_0000		        CODE_OVLY		FFFFFFFF
                     nsMagPhase_code	C:\CirrusDSP\lib\dsplib\cl_atan2_asm	               nsMagPhase_code		        CODE_OVLY		FFFFFFFF
-                    printf_GEN_0000	C:\CirrusDSP\lib\dsplib\crystal32\printf	               printf_GEN_0000		        CODE_OVLY		02F0
-                processing_GEN_0000	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0000		           X_OVLY		0116
-                processing_GEN_0001	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0001		           X_OVLY		0117
-                processing_GEN_0002	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0002		           X_OVLY		0118
-                processing_GEN_0003	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0003		        CODE_OVLY		00D6
+                    printf_GEN_0000	C:\CirrusDSP\lib\dsplib\crystal32\printf	               printf_GEN_0000		        CODE_OVLY		02F6
+                processing_GEN_0000	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0000		           X_OVLY		0087
+                processing_GEN_0001	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0001		           X_OVLY		0088
+                processing_GEN_0002	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0002		           X_OVLY		0089
+                processing_GEN_0003	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0003		           Y_OVLY		0081
+                processing_GEN_0004	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0004		           Y_OVLY		0091
+                processing_GEN_0005	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0005		        CODE_OVLY		00D6
                    putchar_GEN_0000	C:\CirrusDSP\lib\dsplib\crystal32\putchar	              putchar_GEN_0000		        CODE_OVLY		FFFFFFFF
                     puts_x_GEN_0000	C:\CirrusDSP\lib\dsplib\crystal32\puts_x	               puts_x_GEN_0000		        CODE_OVLY		FFFFFFFF
                     puts_y_GEN_0000	C:\CirrusDSP\lib\dsplib\crystal32\puts_y	               puts_y_GEN_0000		        CODE_OVLY		FFFFFFFF
@@ -996,12 +1005,12 @@ cl_wavread_number_of_frames_GEN_0000	C:\CirrusDSP\lib\dsplib\crystal32\cl_wavrea
                  set_mr_sr_GEN_0000	          C:\CirrusDSP\lib\set_mr_sr	            set_mr_sr_GEN_0000		        CODE_OVLY		FFFFFFFF
       shift_left_constants_GEN_0000	C:\CirrusDSP\lib\shift_left_constants	 shift_left_constants_GEN_0000		           X_OVLY		FFFFFFFF
      shift_right_constants_GEN_0000	C:\CirrusDSP\lib\shift_right_constants	shift_right_constants_GEN_0000		           X_OVLY		FFFFFFFF
-           simulator_stack_GEN_0000	    C:\CirrusDSP\lib\simulator_stack	      simulator_stack_GEN_0000		                X		0119
+           simulator_stack_GEN_0000	    C:\CirrusDSP\lib\simulator_stack	      simulator_stack_GEN_0000		                X		008A
                    sprintf_GEN_0000	C:\CirrusDSP\lib\dsplib\crystal32\sprintf	              sprintf_GEN_0000		        CODE_OVLY		FFFFFFFF
                      src_buf_y_Base	C:\CirrusDSP\lib\dsplib\cl_src_data_vars_asm	                src_buf_y_Base		           Y_OVLY		FFFFFFFF
                      src_tbl_x_Base	C:\CirrusDSP\lib\dsplib\cl_src_tables_asm	                src_tbl_x_Base		           X_OVLY		FFFFFFFF
                     strcmp_GEN_0000	             C:\CirrusDSP\lib\strcmp	               strcmp_GEN_0000		        CODE_OVLY		FFFFFFFF
-                strcpy_x2x_GEN_0000	         C:\CirrusDSP\lib\strcpy_x2x	           strcpy_x2x_GEN_0000		        CODE_OVLY		02C3
+                strcpy_x2x_GEN_0000	         C:\CirrusDSP\lib\strcpy_x2x	           strcpy_x2x_GEN_0000		        CODE_OVLY		02C9
                 strcpy_x2y_GEN_0000	         C:\CirrusDSP\lib\strcpy_x2y	           strcpy_x2y_GEN_0000		        CODE_OVLY		FFFFFFFF
                 strcpy_y2x_GEN_0000	         C:\CirrusDSP\lib\strcpy_y2x	           strcpy_y2x_GEN_0000		        CODE_OVLY		FFFFFFFF
                 strcpy_y2y_GEN_0000	         C:\CirrusDSP\lib\strcpy_y2y	           strcpy_y2y_GEN_0000		        CODE_OVLY		FFFFFFFF
@@ -1012,7 +1021,7 @@ cl_wavread_number_of_frames_GEN_0000	C:\CirrusDSP\lib\dsplib\crystal32\cl_wavrea
            uaccum_to_accum_GEN_0000	    C:\CirrusDSP\lib\uaccum_to_accum	      uaccum_to_accum_GEN_0000		        CODE_OVLY		FFFFFFFF
            uaccum_to_fract_GEN_0000	    C:\CirrusDSP\lib\uaccum_to_fract	      uaccum_to_fract_GEN_0000		        CODE_OVLY		FFFFFFFF
           uaccum_to_lfract_GEN_0000	   C:\CirrusDSP\lib\uaccum_to_lfract	     uaccum_to_lfract_GEN_0000		        CODE_OVLY		FFFFFFFF
-                      udiv_GEN_0000	               C:\CirrusDSP\lib\udiv	                 udiv_GEN_0000		        CODE_OVLY		019D
+                      udiv_GEN_0000	               C:\CirrusDSP\lib\udiv	                 udiv_GEN_0000		        CODE_OVLY		01A3
                 udiv_llong_GEN_0000	         C:\CirrusDSP\lib\udiv_llong	           udiv_llong_GEN_0000		        CODE_OVLY		FFFFFFFF
                    uhrbits_GEN_0000	            C:\CirrusDSP\lib\uhrbits	              uhrbits_GEN_0000		        CODE_OVLY		FFFFFFFF
              uint_to_accum_GEN_0000	      C:\CirrusDSP\lib\uint_to_accum	        uint_to_accum_GEN_0000		        CODE_OVLY		FFFFFFFF
@@ -1053,15 +1062,15 @@ y_TDF_FG_temp_td_blocksize2_plus_extra	C:\CirrusDSP\lib\dsplib\crystal32\cl_td_f
 ---------------SYMBOL(relocation symbols)						FILE						SEGMENT							CLASS		ADDRESS  
 
                      __epilogue_226	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/main	                 main_GEN_0008		        CODE_OVLY		00D3
-                         _deegreTmp	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/main	                 main_GEN_0000		           X_OVLY		0112
-                           _gainTmp	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/main	                 main_GEN_0001		           X_OVLY		0113
-                          _inverter	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/main	                 main_GEN_0002		           X_OVLY		0110
+                         _deegreTmp	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/main	                 main_GEN_0000		           X_OVLY		0083
+                           _gainTmp	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/main	                 main_GEN_0001		           X_OVLY		0084
+                          _inverter	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/main	                 main_GEN_0002		           X_OVLY		0081
                               _main	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/main	                 main_GEN_0008		        CODE_OVLY		0001
-                      _sampleBuffer	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/main	                 main_GEN_0003		           X_OVLY		0001
-                    _string_const_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/main	                 main_GEN_0004		           X_OVLY		0081
-                    _string_const_1	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/main	                 main_GEN_0005		           X_OVLY		00B3
-                    _string_const_2	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/main	                 main_GEN_0006		           X_OVLY		00F5
-                    _string_const_3	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/main	                 main_GEN_0007		           X_OVLY		00D4
+                      _sampleBuffer	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/main	                 main_GEN_0003		           Y_OVLY		0001
+                    _string_const_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/main	                 main_GEN_0004		           X_OVLY		0001
+                    _string_const_1	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/main	                 main_GEN_0005		           X_OVLY		0024
+                    _string_const_2	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/main	                 main_GEN_0006		           X_OVLY		0066
+                    _string_const_3	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/main	                 main_GEN_0007		           X_OVLY		0045
                         cline_100_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/main	                 main_GEN_0008		        CODE_OVLY		00B8
                         cline_108_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/main	                 main_GEN_0008		        CODE_OVLY		00CE
                         cline_109_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/main	                 main_GEN_0008		        CODE_OVLY		00D1
@@ -1131,145 +1140,156 @@ y_TDF_FG_temp_td_blocksize2_plus_extra	C:\CirrusDSP\lib\dsplib\crystal32\cl_td_f
                        label_end_94	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/main	                 main_GEN_0008		        CODE_OVLY		009B
                        label_end_95	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/main	                 main_GEN_0008		        CODE_OVLY		00BD
                        label_end_96	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/main	                 main_GEN_0008		        CODE_OVLY		00C3
-                     __epilogue_104	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/inverter	             inverter_GEN_0002		        CODE_OVLY		022D
-                     __epilogue_106	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/inverter	             inverter_GEN_0002		        CODE_OVLY		0286
-               __extractedConst_0_1	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/inverter	             inverter_GEN_0000		           X_OVLY		0114
-               __extractedConst_1_1	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/inverter	             inverter_GEN_0001		           X_OVLY		0115
-                 _audio_invert_init	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/inverter	             inverter_GEN_0002		        CODE_OVLY		0217
-        _gst_audio_invert_transform	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/inverter	             inverter_GEN_0002		        CODE_OVLY		0230
-                         cline_12_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/inverter	             inverter_GEN_0002		        CODE_OVLY		0220
-                         cline_14_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/inverter	             inverter_GEN_0002		        CODE_OVLY		0226
-                         cline_15_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/inverter	             inverter_GEN_0002		        CODE_OVLY		022C
-                         cline_18_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/inverter	             inverter_GEN_0002		        CODE_OVLY		0239
-                         cline_21_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/inverter	             inverter_GEN_0002		        CODE_OVLY		0241
-                         cline_24_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/inverter	             inverter_GEN_0002		        CODE_OVLY		0244
-                         cline_25_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/inverter	             inverter_GEN_0002		        CODE_OVLY		024A
-                         cline_27_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/inverter	             inverter_GEN_0002		        CODE_OVLY		024E
-                         cline_27_1	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/inverter	             inverter_GEN_0002		        CODE_OVLY		0285
-                         cline_29_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/inverter	             inverter_GEN_0002		        CODE_OVLY		0256
-                         cline_30_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/inverter	             inverter_GEN_0002		        CODE_OVLY		0267
-                         cline_31_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/inverter	             inverter_GEN_0002		        CODE_OVLY		026C
-                         cline_32_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/inverter	             inverter_GEN_0002		        CODE_OVLY		027A
-                         cline_33_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/inverter	             inverter_GEN_0002		        CODE_OVLY		027F
-                          for_end_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/inverter	             inverter_GEN_0002		        CODE_OVLY		0285
-                 init_latch_label_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/inverter	             inverter_GEN_0002		        CODE_OVLY		027F
-                     label_begin_92	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/inverter	             inverter_GEN_0002		        CODE_OVLY		024E
-                       label_end_92	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/inverter	             inverter_GEN_0002		        CODE_OVLY		0284
-                     __epilogue_108	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0003		        CODE_OVLY		019A
-               __extractedConst_0_4	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0000		           X_OVLY		0116
-               __extractedConst_1_1	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0001		           X_OVLY		0117
-               __extractedConst_2_2	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0002		           X_OVLY		0118
-                        _processing	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0003		        CODE_OVLY		00D6
-                         cline_14_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0003		        CODE_OVLY		00DF
-                         cline_15_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0003		        CODE_OVLY		00E3
-                         cline_19_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0003		        CODE_OVLY		00EB
-                         cline_19_1	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0003		        CODE_OVLY		011A
-                         cline_22_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0003		        CODE_OVLY		00F3
-                         cline_23_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0003		        CODE_OVLY		00FE
-                         cline_25_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0003		        CODE_OVLY		0108
-                         cline_26_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0003		        CODE_OVLY		0114
-                         cline_29_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0003		        CODE_OVLY		011E
-                         cline_30_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0003		        CODE_OVLY		0122
-                         cline_33_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0003		        CODE_OVLY		012A
-                         cline_33_1	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0003		        CODE_OVLY		013F
-                         cline_35_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0003		        CODE_OVLY		0139
-                         cline_39_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0003		        CODE_OVLY		0146
-                         cline_40_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0003		        CODE_OVLY		014D
-                         cline_42_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0003		        CODE_OVLY		0155
-                         cline_42_1	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0003		        CODE_OVLY		0191
-                         cline_44_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0003		        CODE_OVLY		015E
-                         cline_45_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0003		        CODE_OVLY		0168
-                         cline_47_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0003		        CODE_OVLY		0174
-                         cline_48_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0003		        CODE_OVLY		0181
-                         cline_50_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0003		        CODE_OVLY		0186
-                         cline_51_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0003		        CODE_OVLY		018B
-                         cline_54_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0003		        CODE_OVLY		0195
-                         cline_55_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0003		        CODE_OVLY		0199
-                          cline_7_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0003		        CODE_OVLY		00DB
-                              for_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0003		        CODE_OVLY		00E6
-                              for_1	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0003		        CODE_OVLY		0125
-                              for_2	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0003		        CODE_OVLY		0150
-                          for_end_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0003		        CODE_OVLY		011A
-                          for_end_1	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0003		        CODE_OVLY		013F
-                          for_end_2	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0003		        CODE_OVLY		0191
-                 init_latch_label_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0003		        CODE_OVLY		0114
-                 init_latch_label_1	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0003		        CODE_OVLY		0139
-                 init_latch_label_2	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0003		        CODE_OVLY		018B
-                            __start	               C:\CirrusDSP\lib\crt0	                 crt0_GEN_0003		        CODE_OVLY		02CA
-                              __div	                C:\CirrusDSP\lib\div	                  div_GEN_0000		        CODE_OVLY		0289
-                       __epilogue_2	                C:\CirrusDSP\lib\div	                  div_GEN_0000		        CODE_OVLY		02BC
-                      comparation_0	                C:\CirrusDSP\lib\div	                  div_GEN_0000		        CODE_OVLY		0295
-                      comparation_1	                C:\CirrusDSP\lib\div	                  div_GEN_0000		        CODE_OVLY		029C
-                      comparation_2	                C:\CirrusDSP\lib\div	                  div_GEN_0000		        CODE_OVLY		02A5
-                      comparation_3	                C:\CirrusDSP\lib\div	                  div_GEN_0000		        CODE_OVLY		02AC
-                             else_0	                C:\CirrusDSP\lib\div	                  div_GEN_0000		        CODE_OVLY		02A0
-                             else_1	                C:\CirrusDSP\lib\div	                  div_GEN_0000		        CODE_OVLY		02B0
-                             else_2	                C:\CirrusDSP\lib\div	                  div_GEN_0000		        CODE_OVLY		02B3
-                             else_3	                C:\CirrusDSP\lib\div	                  div_GEN_0000		        CODE_OVLY		02B6
-                             else_4	                C:\CirrusDSP\lib\div	                  div_GEN_0000		        CODE_OVLY		02BB
-                            endif_0	                C:\CirrusDSP\lib\div	                  div_GEN_0000		        CODE_OVLY		02A0
-                            endif_1	                C:\CirrusDSP\lib\div	                  div_GEN_0000		        CODE_OVLY		02B0
-                            endif_2	                C:\CirrusDSP\lib\div	                  div_GEN_0000		        CODE_OVLY		02B3
-                            endif_3	                C:\CirrusDSP\lib\div	                  div_GEN_0000		        CODE_OVLY		02B6
-                             land_0	                C:\CirrusDSP\lib\div	                  div_GEN_0000		        CODE_OVLY		029D
-                             land_1	                C:\CirrusDSP\lib\div	                  div_GEN_0000		        CODE_OVLY		02AD
-                              _exit	               C:\CirrusDSP\lib\exit	                 exit_GEN_0000		        CODE_OVLY		02CE
-                              _argv	    C:\CirrusDSP\lib\simulator_stack	      simulator_stack_GEN_0000		                X		0919
-                           _c_stack	    C:\CirrusDSP\lib\simulator_stack	      simulator_stack_GEN_0000		                X		0119
-                            _strcpy	         C:\CirrusDSP\lib\strcpy_x2x	           strcpy_x2x_GEN_0000		        CODE_OVLY		02C3
-                        _strcpy_x2x	         C:\CirrusDSP\lib\strcpy_x2x	           strcpy_x2x_GEN_0000		        CODE_OVLY		02C3
-                             __udiv	               C:\CirrusDSP\lib\udiv	                 udiv_GEN_0000		        CODE_OVLY		019D
-                      comparation_0	               C:\CirrusDSP\lib\udiv	                 udiv_GEN_0000		        CODE_OVLY		01C4
-                      comparation_1	               C:\CirrusDSP\lib\udiv	                 udiv_GEN_0000		        CODE_OVLY		01CC
-                      comparation_2	               C:\CirrusDSP\lib\udiv	                 udiv_GEN_0000		        CODE_OVLY		01DF
-                      comparation_3	               C:\CirrusDSP\lib\udiv	                 udiv_GEN_0000		        CODE_OVLY		01E8
-                             else_0	               C:\CirrusDSP\lib\udiv	                 udiv_GEN_0000		        CODE_OVLY		01EE
-                    elsecondition_0	               C:\CirrusDSP\lib\udiv	                 udiv_GEN_0000		        CODE_OVLY		01F9
-                     endcondition_0	               C:\CirrusDSP\lib\udiv	                 udiv_GEN_0000		        CODE_OVLY		01FA
-                            endif_0	               C:\CirrusDSP\lib\udiv	                 udiv_GEN_0000		        CODE_OVLY		01EE
-                              for_0	               C:\CirrusDSP\lib\udiv	                 udiv_GEN_0000		        CODE_OVLY		01D4
-                          for_end_0	               C:\CirrusDSP\lib\udiv	                 udiv_GEN_0000		        CODE_OVLY		01FE
-                             land_0	               C:\CirrusDSP\lib\udiv	                 udiv_GEN_0000		        CODE_OVLY		01CD
-                              lor_0	               C:\CirrusDSP\lib\udiv	                 udiv_GEN_0000		        CODE_OVLY		01E9
-                            while_0	               C:\CirrusDSP\lib\udiv	                 udiv_GEN_0000		        CODE_OVLY		01B7
-                        while_end_0	               C:\CirrusDSP\lib\udiv	                 udiv_GEN_0000		        CODE_OVLY		01D3
-                         _STDIO_EQU	C:\CirrusDSP\lib\dsplib\crystal32\cl_wavread_bits_per_sample	                        __INIT		             CODE		02F3
-        _cl_wavread_bits_per_sample	C:\CirrusDSP\lib\dsplib\crystal32\cl_wavread_bits_per_sample	cl_wavread_bits_per_sample_GEN_0000		        CODE_OVLY		02D2
-                         _STDIO_EQU	C:\CirrusDSP\lib\dsplib\crystal32\cl_wavread_close	                        __INIT		             CODE		02F3
-                  _cl_wavread_close	C:\CirrusDSP\lib\dsplib\crystal32\cl_wavread_close	     cl_wavread_close_GEN_0000		        CODE_OVLY		02D5
-                         _STDIO_EQU	C:\CirrusDSP\lib\dsplib\crystal32\cl_wavread_frame_rate	                        __INIT		             CODE		02F3
-             _cl_wavread_frame_rate	C:\CirrusDSP\lib\dsplib\crystal32\cl_wavread_frame_rate	cl_wavread_frame_rate_GEN_0000		        CODE_OVLY		02D8
-                         _STDIO_EQU	C:\CirrusDSP\lib\dsplib\crystal32\cl_wavread_getnchannels	                        __INIT		             CODE		02F3
-           _cl_wavread_getnchannels	C:\CirrusDSP\lib\dsplib\crystal32\cl_wavread_getnchannels	cl_wavread_getnchannels_GEN_0000		        CODE_OVLY		02DB
-                         _STDIO_EQU	C:\CirrusDSP\lib\dsplib\crystal32\cl_wavread_number_of_frames	                        __INIT		             CODE		02F3
-       _cl_wavread_number_of_frames	C:\CirrusDSP\lib\dsplib\crystal32\cl_wavread_number_of_frames	cl_wavread_number_of_frames_GEN_0000		        CODE_OVLY		02DE
-                         _STDIO_EQU	C:\CirrusDSP\lib\dsplib\crystal32\cl_wavread_open	                        __INIT		             CODE		02F3
-                   _cl_wavread_open	C:\CirrusDSP\lib\dsplib\crystal32\cl_wavread_open	      cl_wavread_open_GEN_0000		        CODE_OVLY		02E1
-                         _STDIO_EQU	C:\CirrusDSP\lib\dsplib\crystal32\cl_wavread_recvsample	                        __INIT		             CODE		02F3
-             _cl_wavread_recvsample	C:\CirrusDSP\lib\dsplib\crystal32\cl_wavread_recvsample	cl_wavread_recvsample_GEN_0000		        CODE_OVLY		02E4
-                         _STDIO_EQU	C:\CirrusDSP\lib\dsplib\crystal32\cl_wavwrite_close	                        __INIT		             CODE		02F3
-                 _cl_wavwrite_close	C:\CirrusDSP\lib\dsplib\crystal32\cl_wavwrite_close	    cl_wavwrite_close_GEN_0000		        CODE_OVLY		02E7
-                         _STDIO_EQU	C:\CirrusDSP\lib\dsplib\crystal32\cl_wavwrite_open	                        __INIT		             CODE		02F3
-                  _cl_wavwrite_open	C:\CirrusDSP\lib\dsplib\crystal32\cl_wavwrite_open	     cl_wavwrite_open_GEN_0000		        CODE_OVLY		02EA
-                         _STDIO_EQU	C:\CirrusDSP\lib\dsplib\crystal32\cl_wavwrite_sendsample	                        __INIT		             CODE		02F3
-            _cl_wavwrite_sendsample	C:\CirrusDSP\lib\dsplib\crystal32\cl_wavwrite_sendsample	cl_wavwrite_sendsample_GEN_0000		        CODE_OVLY		02ED
-                         _STDIO_EQU	C:\CirrusDSP\lib\dsplib\crystal32\printf	                        __INIT		             CODE		02F3
-                            _printf	C:\CirrusDSP\lib\dsplib\crystal32\printf	               printf_GEN_0000		        CODE_OVLY		02F0
+                     __epilogue_104	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/inverter	             inverter_GEN_0002		        CODE_OVLY		0233
+                     __epilogue_106	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/inverter	             inverter_GEN_0002		        CODE_OVLY		028C
+               __extractedConst_0_1	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/inverter	             inverter_GEN_0000		           X_OVLY		0085
+               __extractedConst_1_1	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/inverter	             inverter_GEN_0001		           X_OVLY		0086
+                 _audio_invert_init	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/inverter	             inverter_GEN_0002		        CODE_OVLY		021D
+        _gst_audio_invert_transform	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/inverter	             inverter_GEN_0002		        CODE_OVLY		0236
+                         cline_12_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/inverter	             inverter_GEN_0002		        CODE_OVLY		0226
+                         cline_14_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/inverter	             inverter_GEN_0002		        CODE_OVLY		022C
+                         cline_15_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/inverter	             inverter_GEN_0002		        CODE_OVLY		0232
+                         cline_18_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/inverter	             inverter_GEN_0002		        CODE_OVLY		023F
+                         cline_21_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/inverter	             inverter_GEN_0002		        CODE_OVLY		0247
+                         cline_24_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/inverter	             inverter_GEN_0002		        CODE_OVLY		024A
+                         cline_25_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/inverter	             inverter_GEN_0002		        CODE_OVLY		0250
+                         cline_27_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/inverter	             inverter_GEN_0002		        CODE_OVLY		0254
+                         cline_27_1	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/inverter	             inverter_GEN_0002		        CODE_OVLY		028B
+                         cline_29_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/inverter	             inverter_GEN_0002		        CODE_OVLY		025C
+                         cline_30_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/inverter	             inverter_GEN_0002		        CODE_OVLY		026D
+                         cline_31_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/inverter	             inverter_GEN_0002		        CODE_OVLY		0272
+                         cline_32_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/inverter	             inverter_GEN_0002		        CODE_OVLY		0280
+                         cline_33_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/inverter	             inverter_GEN_0002		        CODE_OVLY		0285
+                          for_end_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/inverter	             inverter_GEN_0002		        CODE_OVLY		028B
+                 init_latch_label_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/inverter	             inverter_GEN_0002		        CODE_OVLY		0285
+                     label_begin_92	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/inverter	             inverter_GEN_0002		        CODE_OVLY		0254
+                       label_end_92	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/inverter	             inverter_GEN_0002		        CODE_OVLY		028A
+                     __epilogue_108	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0005		        CODE_OVLY		01A0
+               __extractedConst_0_4	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0000		           X_OVLY		0087
+               __extractedConst_1_1	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0001		           X_OVLY		0088
+               __extractedConst_2_2	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0002		           X_OVLY		0089
+                           _bufferL	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0003		           Y_OVLY		0081
+                           _bufferR	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0004		           Y_OVLY		0091
+                        _processing	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0005		        CODE_OVLY		00D6
+                         cline_14_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0005		        CODE_OVLY		00DE
+                         cline_15_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0005		        CODE_OVLY		00E1
+                         cline_18_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0005		        CODE_OVLY		00E4
+                         cline_19_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0005		        CODE_OVLY		00E8
+                         cline_19_1	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0005		        CODE_OVLY		011C
+                         cline_22_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0005		        CODE_OVLY		00F0
+                         cline_23_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0005		        CODE_OVLY		00FB
+                         cline_25_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0005		        CODE_OVLY		0105
+                         cline_26_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0005		        CODE_OVLY		0111
+                         cline_27_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0005		        CODE_OVLY		0116
+                         cline_31_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0005		        CODE_OVLY		011F
+                         cline_32_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0005		        CODE_OVLY		0122
+                         cline_34_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0005		        CODE_OVLY		0125
+                         cline_35_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0005		        CODE_OVLY		0129
+                         cline_35_1	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0005		        CODE_OVLY		0143
+                         cline_37_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0005		        CODE_OVLY		0138
+                         cline_38_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0005		        CODE_OVLY		013D
+                         cline_42_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0005		        CODE_OVLY		014A
+                         cline_43_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0005		        CODE_OVLY		0151
+                         cline_44_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0005		        CODE_OVLY		0154
+                         cline_45_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0005		        CODE_OVLY		0158
+                         cline_45_1	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0005		        CODE_OVLY		0199
+                         cline_47_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0005		        CODE_OVLY		0161
+                         cline_48_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0005		        CODE_OVLY		016B
+                         cline_50_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0005		        CODE_OVLY		0177
+                         cline_51_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0005		        CODE_OVLY		0184
+                         cline_53_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0005		        CODE_OVLY		0189
+                         cline_54_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0005		        CODE_OVLY		018E
+                         cline_55_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0005		        CODE_OVLY		0193
+                         cline_58_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0005		        CODE_OVLY		019C
+                         cline_59_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0005		        CODE_OVLY		019F
+                          cline_8_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0005		        CODE_OVLY		00DB
+                          for_end_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0005		        CODE_OVLY		011C
+                          for_end_1	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0005		        CODE_OVLY		0143
+                          for_end_2	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0005		        CODE_OVLY		0199
+                 init_latch_label_0	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0005		        CODE_OVLY		0116
+                 init_latch_label_1	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0005		        CODE_OVLY		013D
+                 init_latch_label_2	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0005		        CODE_OVLY		0193
+                     label_begin_92	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0005		        CODE_OVLY		00E8
+                     label_begin_93	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0005		        CODE_OVLY		0129
+                     label_begin_94	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0005		        CODE_OVLY		0158
+                       label_end_92	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0005		        CODE_OVLY		011B
+                       label_end_93	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0005		        CODE_OVLY		0142
+                       label_end_94	D:/SubZero/kompletnoResenje/model3/SULDWavTemplate/output/standalone/src/processing	           processing_GEN_0005		        CODE_OVLY		0198
+                            __start	               C:\CirrusDSP\lib\crt0	                 crt0_GEN_0003		        CODE_OVLY		02D0
+                              __div	                C:\CirrusDSP\lib\div	                  div_GEN_0000		        CODE_OVLY		028F
+                       __epilogue_2	                C:\CirrusDSP\lib\div	                  div_GEN_0000		        CODE_OVLY		02C2
+                      comparation_0	                C:\CirrusDSP\lib\div	                  div_GEN_0000		        CODE_OVLY		029B
+                      comparation_1	                C:\CirrusDSP\lib\div	                  div_GEN_0000		        CODE_OVLY		02A2
+                      comparation_2	                C:\CirrusDSP\lib\div	                  div_GEN_0000		        CODE_OVLY		02AB
+                      comparation_3	                C:\CirrusDSP\lib\div	                  div_GEN_0000		        CODE_OVLY		02B2
+                             else_0	                C:\CirrusDSP\lib\div	                  div_GEN_0000		        CODE_OVLY		02A6
+                             else_1	                C:\CirrusDSP\lib\div	                  div_GEN_0000		        CODE_OVLY		02B6
+                             else_2	                C:\CirrusDSP\lib\div	                  div_GEN_0000		        CODE_OVLY		02B9
+                             else_3	                C:\CirrusDSP\lib\div	                  div_GEN_0000		        CODE_OVLY		02BC
+                             else_4	                C:\CirrusDSP\lib\div	                  div_GEN_0000		        CODE_OVLY		02C1
+                            endif_0	                C:\CirrusDSP\lib\div	                  div_GEN_0000		        CODE_OVLY		02A6
+                            endif_1	                C:\CirrusDSP\lib\div	                  div_GEN_0000		        CODE_OVLY		02B6
+                            endif_2	                C:\CirrusDSP\lib\div	                  div_GEN_0000		        CODE_OVLY		02B9
+                            endif_3	                C:\CirrusDSP\lib\div	                  div_GEN_0000		        CODE_OVLY		02BC
+                             land_0	                C:\CirrusDSP\lib\div	                  div_GEN_0000		        CODE_OVLY		02A3
+                             land_1	                C:\CirrusDSP\lib\div	                  div_GEN_0000		        CODE_OVLY		02B3
+                              _exit	               C:\CirrusDSP\lib\exit	                 exit_GEN_0000		        CODE_OVLY		02D4
+                              _argv	    C:\CirrusDSP\lib\simulator_stack	      simulator_stack_GEN_0000		                X		088A
+                           _c_stack	    C:\CirrusDSP\lib\simulator_stack	      simulator_stack_GEN_0000		                X		008A
+                            _strcpy	         C:\CirrusDSP\lib\strcpy_x2x	           strcpy_x2x_GEN_0000		        CODE_OVLY		02C9
+                        _strcpy_x2x	         C:\CirrusDSP\lib\strcpy_x2x	           strcpy_x2x_GEN_0000		        CODE_OVLY		02C9
+                             __udiv	               C:\CirrusDSP\lib\udiv	                 udiv_GEN_0000		        CODE_OVLY		01A3
+                      comparation_0	               C:\CirrusDSP\lib\udiv	                 udiv_GEN_0000		        CODE_OVLY		01CA
+                      comparation_1	               C:\CirrusDSP\lib\udiv	                 udiv_GEN_0000		        CODE_OVLY		01D2
+                      comparation_2	               C:\CirrusDSP\lib\udiv	                 udiv_GEN_0000		        CODE_OVLY		01E5
+                      comparation_3	               C:\CirrusDSP\lib\udiv	                 udiv_GEN_0000		        CODE_OVLY		01EE
+                             else_0	               C:\CirrusDSP\lib\udiv	                 udiv_GEN_0000		        CODE_OVLY		01F4
+                    elsecondition_0	               C:\CirrusDSP\lib\udiv	                 udiv_GEN_0000		        CODE_OVLY		01FF
+                     endcondition_0	               C:\CirrusDSP\lib\udiv	                 udiv_GEN_0000		        CODE_OVLY		0200
+                            endif_0	               C:\CirrusDSP\lib\udiv	                 udiv_GEN_0000		        CODE_OVLY		01F4
+                              for_0	               C:\CirrusDSP\lib\udiv	                 udiv_GEN_0000		        CODE_OVLY		01DA
+                          for_end_0	               C:\CirrusDSP\lib\udiv	                 udiv_GEN_0000		        CODE_OVLY		0204
+                             land_0	               C:\CirrusDSP\lib\udiv	                 udiv_GEN_0000		        CODE_OVLY		01D3
+                              lor_0	               C:\CirrusDSP\lib\udiv	                 udiv_GEN_0000		        CODE_OVLY		01EF
+                            while_0	               C:\CirrusDSP\lib\udiv	                 udiv_GEN_0000		        CODE_OVLY		01BD
+                        while_end_0	               C:\CirrusDSP\lib\udiv	                 udiv_GEN_0000		        CODE_OVLY		01D9
+                         _STDIO_EQU	C:\CirrusDSP\lib\dsplib\crystal32\cl_wavread_bits_per_sample	                        __INIT		             CODE		02F9
+        _cl_wavread_bits_per_sample	C:\CirrusDSP\lib\dsplib\crystal32\cl_wavread_bits_per_sample	cl_wavread_bits_per_sample_GEN_0000		        CODE_OVLY		02D8
+                         _STDIO_EQU	C:\CirrusDSP\lib\dsplib\crystal32\cl_wavread_close	                        __INIT		             CODE		02F9
+                  _cl_wavread_close	C:\CirrusDSP\lib\dsplib\crystal32\cl_wavread_close	     cl_wavread_close_GEN_0000		        CODE_OVLY		02DB
+                         _STDIO_EQU	C:\CirrusDSP\lib\dsplib\crystal32\cl_wavread_frame_rate	                        __INIT		             CODE		02F9
+             _cl_wavread_frame_rate	C:\CirrusDSP\lib\dsplib\crystal32\cl_wavread_frame_rate	cl_wavread_frame_rate_GEN_0000		        CODE_OVLY		02DE
+                         _STDIO_EQU	C:\CirrusDSP\lib\dsplib\crystal32\cl_wavread_getnchannels	                        __INIT		             CODE		02F9
+           _cl_wavread_getnchannels	C:\CirrusDSP\lib\dsplib\crystal32\cl_wavread_getnchannels	cl_wavread_getnchannels_GEN_0000		        CODE_OVLY		02E1
+                         _STDIO_EQU	C:\CirrusDSP\lib\dsplib\crystal32\cl_wavread_number_of_frames	                        __INIT		             CODE		02F9
+       _cl_wavread_number_of_frames	C:\CirrusDSP\lib\dsplib\crystal32\cl_wavread_number_of_frames	cl_wavread_number_of_frames_GEN_0000		        CODE_OVLY		02E4
+                         _STDIO_EQU	C:\CirrusDSP\lib\dsplib\crystal32\cl_wavread_open	                        __INIT		             CODE		02F9
+                   _cl_wavread_open	C:\CirrusDSP\lib\dsplib\crystal32\cl_wavread_open	      cl_wavread_open_GEN_0000		        CODE_OVLY		02E7
+                         _STDIO_EQU	C:\CirrusDSP\lib\dsplib\crystal32\cl_wavread_recvsample	                        __INIT		             CODE		02F9
+             _cl_wavread_recvsample	C:\CirrusDSP\lib\dsplib\crystal32\cl_wavread_recvsample	cl_wavread_recvsample_GEN_0000		        CODE_OVLY		02EA
+                         _STDIO_EQU	C:\CirrusDSP\lib\dsplib\crystal32\cl_wavwrite_close	                        __INIT		             CODE		02F9
+                 _cl_wavwrite_close	C:\CirrusDSP\lib\dsplib\crystal32\cl_wavwrite_close	    cl_wavwrite_close_GEN_0000		        CODE_OVLY		02ED
+                         _STDIO_EQU	C:\CirrusDSP\lib\dsplib\crystal32\cl_wavwrite_open	                        __INIT		             CODE		02F9
+                  _cl_wavwrite_open	C:\CirrusDSP\lib\dsplib\crystal32\cl_wavwrite_open	     cl_wavwrite_open_GEN_0000		        CODE_OVLY		02F0
+                         _STDIO_EQU	C:\CirrusDSP\lib\dsplib\crystal32\cl_wavwrite_sendsample	                        __INIT		             CODE		02F9
+            _cl_wavwrite_sendsample	C:\CirrusDSP\lib\dsplib\crystal32\cl_wavwrite_sendsample	cl_wavwrite_sendsample_GEN_0000		        CODE_OVLY		02F3
+                         _STDIO_EQU	C:\CirrusDSP\lib\dsplib\crystal32\printf	                        __INIT		             CODE		02F9
+                            _printf	C:\CirrusDSP\lib\dsplib\crystal32\printf	               printf_GEN_0000		        CODE_OVLY		02F6
 
 ----------- module main -----------
 
 LOCAL SYMBOL								TYPE		VALUE
 
                      __epilogue_226		RELOCATABLE		00D3
-                         _deegreTmp		RELOCATABLE		0112
-                           _gainTmp		RELOCATABLE		0113
-                          _inverter		RELOCATABLE		0110
+                         _deegreTmp		RELOCATABLE		0083
+                           _gainTmp		RELOCATABLE		0084
+                          _inverter		RELOCATABLE		0081
                               _main		RELOCATABLE		0001
                       _sampleBuffer		RELOCATABLE		0001
-                    _string_const_0		RELOCATABLE		0081
-                    _string_const_1		RELOCATABLE		00B3
-                    _string_const_2		RELOCATABLE		00F5
-                    _string_const_3		RELOCATABLE		00D4
+                    _string_const_0		RELOCATABLE		0001
+                    _string_const_1		RELOCATABLE		0024
+                    _string_const_2		RELOCATABLE		0066
+                    _string_const_3		RELOCATABLE		0045
                         cline_100_0		RELOCATABLE		00B8
                         cline_108_0		RELOCATABLE		00CE
                         cline_109_0		RELOCATABLE		00D1
@@ -1309,7 +1329,7 @@ LOCAL SYMBOL								TYPE		VALUE
                          cline_97_0		RELOCATABLE		00A6
                          cline_97_1		RELOCATABLE		00BE
                          cline_99_0		RELOCATABLE		00B3
-                              dummy		ABSOLUTE		02CA
+                              dummy		ABSOLUTE		02D0
                              else_0		RELOCATABLE		0038
                              else_1		RELOCATABLE		0061
                             endif_0		RELOCATABLE		0038
@@ -1345,143 +1365,154 @@ LOCAL SYMBOL								TYPE		VALUE
 
 LOCAL SYMBOL								TYPE		VALUE
 
-                     __epilogue_104		RELOCATABLE		022D
-                     __epilogue_106		RELOCATABLE		0286
-               __extractedConst_0_1		RELOCATABLE		0114
-               __extractedConst_1_1		RELOCATABLE		0115
-                 _audio_invert_init		RELOCATABLE		0217
-        _gst_audio_invert_transform		RELOCATABLE		0230
-                         cline_12_0		RELOCATABLE		0220
-                         cline_14_0		RELOCATABLE		0226
-                         cline_15_0		RELOCATABLE		022C
-                         cline_18_0		RELOCATABLE		0239
-                         cline_21_0		RELOCATABLE		0241
-                         cline_24_0		RELOCATABLE		0244
-                         cline_25_0		RELOCATABLE		024A
-                         cline_27_0		RELOCATABLE		024E
-                         cline_27_1		RELOCATABLE		0285
-                         cline_29_0		RELOCATABLE		0256
-                         cline_30_0		RELOCATABLE		0267
-                         cline_31_0		RELOCATABLE		026C
-                         cline_32_0		RELOCATABLE		027A
-                         cline_33_0		RELOCATABLE		027F
-                          for_end_0		RELOCATABLE		0285
-                 init_latch_label_0		RELOCATABLE		027F
-                     label_begin_92		RELOCATABLE		024E
-                       label_end_92		RELOCATABLE		0284
+                     __epilogue_104		RELOCATABLE		0233
+                     __epilogue_106		RELOCATABLE		028C
+               __extractedConst_0_1		RELOCATABLE		0085
+               __extractedConst_1_1		RELOCATABLE		0086
+                 _audio_invert_init		RELOCATABLE		021D
+        _gst_audio_invert_transform		RELOCATABLE		0236
+                         cline_12_0		RELOCATABLE		0226
+                         cline_14_0		RELOCATABLE		022C
+                         cline_15_0		RELOCATABLE		0232
+                         cline_18_0		RELOCATABLE		023F
+                         cline_21_0		RELOCATABLE		0247
+                         cline_24_0		RELOCATABLE		024A
+                         cline_25_0		RELOCATABLE		0250
+                         cline_27_0		RELOCATABLE		0254
+                         cline_27_1		RELOCATABLE		028B
+                         cline_29_0		RELOCATABLE		025C
+                         cline_30_0		RELOCATABLE		026D
+                         cline_31_0		RELOCATABLE		0272
+                         cline_32_0		RELOCATABLE		0280
+                         cline_33_0		RELOCATABLE		0285
+                          for_end_0		RELOCATABLE		028B
+                 init_latch_label_0		RELOCATABLE		0285
+                     label_begin_92		RELOCATABLE		0254
+                       label_end_92		RELOCATABLE		028A
 
 ----------- module processing -----------
 
 LOCAL SYMBOL								TYPE		VALUE
 
-                     __epilogue_108		RELOCATABLE		019A
-               __extractedConst_0_4		RELOCATABLE		0116
-               __extractedConst_1_1		RELOCATABLE		0117
-               __extractedConst_2_2		RELOCATABLE		0118
+                     __epilogue_108		RELOCATABLE		01A0
+               __extractedConst_0_4		RELOCATABLE		0087
+               __extractedConst_1_1		RELOCATABLE		0088
+               __extractedConst_2_2		RELOCATABLE		0089
+                           _bufferL		RELOCATABLE		0081
+                           _bufferR		RELOCATABLE		0091
                         _processing		RELOCATABLE		00D6
-                         cline_14_0		RELOCATABLE		00DF
-                         cline_15_0		RELOCATABLE		00E3
-                         cline_19_0		RELOCATABLE		00EB
-                         cline_19_1		RELOCATABLE		011A
-                         cline_22_0		RELOCATABLE		00F3
-                         cline_23_0		RELOCATABLE		00FE
-                         cline_25_0		RELOCATABLE		0108
-                         cline_26_0		RELOCATABLE		0114
-                         cline_29_0		RELOCATABLE		011E
-                         cline_30_0		RELOCATABLE		0122
-                         cline_33_0		RELOCATABLE		012A
-                         cline_33_1		RELOCATABLE		013F
-                         cline_35_0		RELOCATABLE		0139
-                         cline_39_0		RELOCATABLE		0146
-                         cline_40_0		RELOCATABLE		014D
-                         cline_42_0		RELOCATABLE		0155
-                         cline_42_1		RELOCATABLE		0191
-                         cline_44_0		RELOCATABLE		015E
-                         cline_45_0		RELOCATABLE		0168
-                         cline_47_0		RELOCATABLE		0174
-                         cline_48_0		RELOCATABLE		0181
-                         cline_50_0		RELOCATABLE		0186
-                         cline_51_0		RELOCATABLE		018B
-                         cline_54_0		RELOCATABLE		0195
-                         cline_55_0		RELOCATABLE		0199
-                          cline_7_0		RELOCATABLE		00DB
-                              for_0		RELOCATABLE		00E6
-                              for_1		RELOCATABLE		0125
-                              for_2		RELOCATABLE		0150
-                          for_end_0		RELOCATABLE		011A
-                          for_end_1		RELOCATABLE		013F
-                          for_end_2		RELOCATABLE		0191
-                 init_latch_label_0		RELOCATABLE		0114
-                 init_latch_label_1		RELOCATABLE		0139
-                 init_latch_label_2		RELOCATABLE		018B
+                         cline_14_0		RELOCATABLE		00DE
+                         cline_15_0		RELOCATABLE		00E1
+                         cline_18_0		RELOCATABLE		00E4
+                         cline_19_0		RELOCATABLE		00E8
+                         cline_19_1		RELOCATABLE		011C
+                         cline_22_0		RELOCATABLE		00F0
+                         cline_23_0		RELOCATABLE		00FB
+                         cline_25_0		RELOCATABLE		0105
+                         cline_26_0		RELOCATABLE		0111
+                         cline_27_0		RELOCATABLE		0116
+                         cline_31_0		RELOCATABLE		011F
+                         cline_32_0		RELOCATABLE		0122
+                         cline_34_0		RELOCATABLE		0125
+                         cline_35_0		RELOCATABLE		0129
+                         cline_35_1		RELOCATABLE		0143
+                         cline_37_0		RELOCATABLE		0138
+                         cline_38_0		RELOCATABLE		013D
+                         cline_42_0		RELOCATABLE		014A
+                         cline_43_0		RELOCATABLE		0151
+                         cline_44_0		RELOCATABLE		0154
+                         cline_45_0		RELOCATABLE		0158
+                         cline_45_1		RELOCATABLE		0199
+                         cline_47_0		RELOCATABLE		0161
+                         cline_48_0		RELOCATABLE		016B
+                         cline_50_0		RELOCATABLE		0177
+                         cline_51_0		RELOCATABLE		0184
+                         cline_53_0		RELOCATABLE		0189
+                         cline_54_0		RELOCATABLE		018E
+                         cline_55_0		RELOCATABLE		0193
+                         cline_58_0		RELOCATABLE		019C
+                         cline_59_0		RELOCATABLE		019F
+                          cline_8_0		RELOCATABLE		00DB
+                          for_end_0		RELOCATABLE		011C
+                          for_end_1		RELOCATABLE		0143
+                          for_end_2		RELOCATABLE		0199
+                 init_latch_label_0		RELOCATABLE		0116
+                 init_latch_label_1		RELOCATABLE		013D
+                 init_latch_label_2		RELOCATABLE		0193
+                     label_begin_92		RELOCATABLE		00E8
+                     label_begin_93		RELOCATABLE		0129
+                     label_begin_94		RELOCATABLE		0158
+                       label_end_92		RELOCATABLE		011B
+                       label_end_93		RELOCATABLE		0142
+                       label_end_94		RELOCATABLE		0198
 
 ----------- module crt0 -----------
 
 LOCAL SYMBOL								TYPE		VALUE
 
-                            __start		RELOCATABLE		02CA
+                            __start		RELOCATABLE		02D0
 
 ----------- module div -----------
 
 LOCAL SYMBOL								TYPE		VALUE
 
-                              __div		RELOCATABLE		0289
-                       __epilogue_2		RELOCATABLE		02BC
-                      comparation_0		RELOCATABLE		0295
-                      comparation_1		RELOCATABLE		029C
-                      comparation_2		RELOCATABLE		02A5
-                      comparation_3		RELOCATABLE		02AC
-                             else_0		RELOCATABLE		02A0
-                             else_1		RELOCATABLE		02B0
-                             else_2		RELOCATABLE		02B3
-                             else_3		RELOCATABLE		02B6
-                             else_4		RELOCATABLE		02BB
-                            endif_0		RELOCATABLE		02A0
-                            endif_1		RELOCATABLE		02B0
-                            endif_2		RELOCATABLE		02B3
-                            endif_3		RELOCATABLE		02B6
-                             land_0		RELOCATABLE		029D
-                             land_1		RELOCATABLE		02AD
+                              __div		RELOCATABLE		028F
+                       __epilogue_2		RELOCATABLE		02C2
+                      comparation_0		RELOCATABLE		029B
+                      comparation_1		RELOCATABLE		02A2
+                      comparation_2		RELOCATABLE		02AB
+                      comparation_3		RELOCATABLE		02B2
+                             else_0		RELOCATABLE		02A6
+                             else_1		RELOCATABLE		02B6
+                             else_2		RELOCATABLE		02B9
+                             else_3		RELOCATABLE		02BC
+                             else_4		RELOCATABLE		02C1
+                            endif_0		RELOCATABLE		02A6
+                            endif_1		RELOCATABLE		02B6
+                            endif_2		RELOCATABLE		02B9
+                            endif_3		RELOCATABLE		02BC
+                             land_0		RELOCATABLE		02A3
+                             land_1		RELOCATABLE		02B3
 
 ----------- module exit -----------
 
 LOCAL SYMBOL								TYPE		VALUE
 
-                              _exit		RELOCATABLE		02CE
+                              _exit		RELOCATABLE		02D4
 
 ----------- module simulator_stack -----------
 
 LOCAL SYMBOL								TYPE		VALUE
 
-                              _argv		RELOCATABLE		0919
-                           _c_stack		RELOCATABLE		0119
+                              _argv		RELOCATABLE		088A
+                           _c_stack		RELOCATABLE		008A
 
 ----------- module strcpy_x2x -----------
 
 LOCAL SYMBOL								TYPE		VALUE
 
-                            _strcpy		RELOCATABLE		02C3
-                        _strcpy_x2x		RELOCATABLE		02C3
+                            _strcpy		RELOCATABLE		02C9
+                        _strcpy_x2x		RELOCATABLE		02C9
 
 ----------- module udiv -----------
 
 LOCAL SYMBOL								TYPE		VALUE
 
-                             __udiv		RELOCATABLE		019D
-                      comparation_0		RELOCATABLE		01C4
-                      comparation_1		RELOCATABLE		01CC
-                      comparation_2		RELOCATABLE		01DF
-                      comparation_3		RELOCATABLE		01E8
-                             else_0		RELOCATABLE		01EE
-                    elsecondition_0		RELOCATABLE		01F9
-                     endcondition_0		RELOCATABLE		01FA
-                            endif_0		RELOCATABLE		01EE
-                              for_0		RELOCATABLE		01D4
-                          for_end_0		RELOCATABLE		01FE
-                             land_0		RELOCATABLE		01CD
-                              lor_0		RELOCATABLE		01E9
-                            while_0		RELOCATABLE		01B7
-                        while_end_0		RELOCATABLE		01D3
+                             __udiv		RELOCATABLE		01A3
+                      comparation_0		RELOCATABLE		01CA
+                      comparation_1		RELOCATABLE		01D2
+                      comparation_2		RELOCATABLE		01E5
+                      comparation_3		RELOCATABLE		01EE
+                             else_0		RELOCATABLE		01F4
+                    elsecondition_0		RELOCATABLE		01FF
+                     endcondition_0		RELOCATABLE		0200
+                            endif_0		RELOCATABLE		01F4
+                              for_0		RELOCATABLE		01DA
+                          for_end_0		RELOCATABLE		0204
+                             land_0		RELOCATABLE		01D3
+                              lor_0		RELOCATABLE		01EF
+                            while_0		RELOCATABLE		01BD
+                        while_end_0		RELOCATABLE		01D9
 
 ----------- module cl_wavread_bits_per_sample -----------
 
@@ -1528,8 +1559,8 @@ LOCAL SYMBOL								TYPE		VALUE
                       WAVWRITE_OPEN		ABSOLUTE		0300
              WAVWRITE_SAMPLE_NUMBER		ABSOLUTE		0303
                 WAVWRITE_SENDSAMPLE		ABSOLUTE		0302
-                         _STDIO_EQU		RELOCATABLE		02F3
-        _cl_wavread_bits_per_sample		RELOCATABLE		02D2
+                         _STDIO_EQU		RELOCATABLE		02F9
+        _cl_wavread_bits_per_sample		RELOCATABLE		02D8
 
 ----------- module cl_wavread_close -----------
 
@@ -1576,8 +1607,8 @@ LOCAL SYMBOL								TYPE		VALUE
                       WAVWRITE_OPEN		ABSOLUTE		0300
              WAVWRITE_SAMPLE_NUMBER		ABSOLUTE		0303
                 WAVWRITE_SENDSAMPLE		ABSOLUTE		0302
-                         _STDIO_EQU		RELOCATABLE		02F3
-                  _cl_wavread_close		RELOCATABLE		02D5
+                         _STDIO_EQU		RELOCATABLE		02F9
+                  _cl_wavread_close		RELOCATABLE		02DB
 
 ----------- module cl_wavread_frame_rate -----------
 
@@ -1624,8 +1655,8 @@ LOCAL SYMBOL								TYPE		VALUE
                       WAVWRITE_OPEN		ABSOLUTE		0300
              WAVWRITE_SAMPLE_NUMBER		ABSOLUTE		0303
                 WAVWRITE_SENDSAMPLE		ABSOLUTE		0302
-                         _STDIO_EQU		RELOCATABLE		02F3
-             _cl_wavread_frame_rate		RELOCATABLE		02D8
+                         _STDIO_EQU		RELOCATABLE		02F9
+             _cl_wavread_frame_rate		RELOCATABLE		02DE
 
 ----------- module cl_wavread_getnchannels -----------
 
@@ -1672,8 +1703,8 @@ LOCAL SYMBOL								TYPE		VALUE
                       WAVWRITE_OPEN		ABSOLUTE		0300
              WAVWRITE_SAMPLE_NUMBER		ABSOLUTE		0303
                 WAVWRITE_SENDSAMPLE		ABSOLUTE		0302
-                         _STDIO_EQU		RELOCATABLE		02F3
-           _cl_wavread_getnchannels		RELOCATABLE		02DB
+                         _STDIO_EQU		RELOCATABLE		02F9
+           _cl_wavread_getnchannels		RELOCATABLE		02E1
 
 ----------- module cl_wavread_number_of_frames -----------
 
@@ -1720,8 +1751,8 @@ LOCAL SYMBOL								TYPE		VALUE
                       WAVWRITE_OPEN		ABSOLUTE		0300
              WAVWRITE_SAMPLE_NUMBER		ABSOLUTE		0303
                 WAVWRITE_SENDSAMPLE		ABSOLUTE		0302
-                         _STDIO_EQU		RELOCATABLE		02F3
-       _cl_wavread_number_of_frames		RELOCATABLE		02DE
+                         _STDIO_EQU		RELOCATABLE		02F9
+       _cl_wavread_number_of_frames		RELOCATABLE		02E4
 
 ----------- module cl_wavread_open -----------
 
@@ -1768,8 +1799,8 @@ LOCAL SYMBOL								TYPE		VALUE
                       WAVWRITE_OPEN		ABSOLUTE		0300
              WAVWRITE_SAMPLE_NUMBER		ABSOLUTE		0303
                 WAVWRITE_SENDSAMPLE		ABSOLUTE		0302
-                         _STDIO_EQU		RELOCATABLE		02F3
-                   _cl_wavread_open		RELOCATABLE		02E1
+                         _STDIO_EQU		RELOCATABLE		02F9
+                   _cl_wavread_open		RELOCATABLE		02E7
 
 ----------- module cl_wavread_recvsample -----------
 
@@ -1816,8 +1847,8 @@ LOCAL SYMBOL								TYPE		VALUE
                       WAVWRITE_OPEN		ABSOLUTE		0300
              WAVWRITE_SAMPLE_NUMBER		ABSOLUTE		0303
                 WAVWRITE_SENDSAMPLE		ABSOLUTE		0302
-                         _STDIO_EQU		RELOCATABLE		02F3
-             _cl_wavread_recvsample		RELOCATABLE		02E4
+                         _STDIO_EQU		RELOCATABLE		02F9
+             _cl_wavread_recvsample		RELOCATABLE		02EA
 
 ----------- module cl_wavwrite_close -----------
 
@@ -1864,8 +1895,8 @@ LOCAL SYMBOL								TYPE		VALUE
                       WAVWRITE_OPEN		ABSOLUTE		0300
              WAVWRITE_SAMPLE_NUMBER		ABSOLUTE		0303
                 WAVWRITE_SENDSAMPLE		ABSOLUTE		0302
-                         _STDIO_EQU		RELOCATABLE		02F3
-                 _cl_wavwrite_close		RELOCATABLE		02E7
+                         _STDIO_EQU		RELOCATABLE		02F9
+                 _cl_wavwrite_close		RELOCATABLE		02ED
 
 ----------- module cl_wavwrite_open -----------
 
@@ -1912,8 +1943,8 @@ LOCAL SYMBOL								TYPE		VALUE
                       WAVWRITE_OPEN		ABSOLUTE		0300
              WAVWRITE_SAMPLE_NUMBER		ABSOLUTE		0303
                 WAVWRITE_SENDSAMPLE		ABSOLUTE		0302
-                         _STDIO_EQU		RELOCATABLE		02F3
-                  _cl_wavwrite_open		RELOCATABLE		02EA
+                         _STDIO_EQU		RELOCATABLE		02F9
+                  _cl_wavwrite_open		RELOCATABLE		02F0
 
 ----------- module cl_wavwrite_sendsample -----------
 
@@ -1960,8 +1991,8 @@ LOCAL SYMBOL								TYPE		VALUE
                       WAVWRITE_OPEN		ABSOLUTE		0300
              WAVWRITE_SAMPLE_NUMBER		ABSOLUTE		0303
                 WAVWRITE_SENDSAMPLE		ABSOLUTE		0302
-                         _STDIO_EQU		RELOCATABLE		02F3
-            _cl_wavwrite_sendsample		RELOCATABLE		02ED
+                         _STDIO_EQU		RELOCATABLE		02F9
+            _cl_wavwrite_sendsample		RELOCATABLE		02F3
 
 ----------- module printf -----------
 
@@ -2008,5 +2039,5 @@ LOCAL SYMBOL								TYPE		VALUE
                       WAVWRITE_OPEN		ABSOLUTE		0300
              WAVWRITE_SAMPLE_NUMBER		ABSOLUTE		0303
                 WAVWRITE_SENDSAMPLE		ABSOLUTE		0302
-                         _STDIO_EQU		RELOCATABLE		02F3
-                            _printf		RELOCATABLE		02F0
+                         _STDIO_EQU		RELOCATABLE		02F9
+                            _printf		RELOCATABLE		02F6

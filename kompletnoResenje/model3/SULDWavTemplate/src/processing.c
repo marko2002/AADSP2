@@ -1,22 +1,22 @@
-
+/*
 #include "processing.h"
 
-extern DSPfract sampleBuffer[MAX_NUM_CHANNEL][BLOCK_SIZE];
+__memY extern DSPfract sampleBuffer[MAX_NUM_CHANNEL][BLOCK_SIZE];
+__memY	DSPfract bufferL[BLOCK_SIZE];
+__memY	DSPfract bufferR[BLOCK_SIZE];
 
-
-void processing(inverter_data_t* inverter)
+void processing(__memX inverter_data_t* inverter)
 {
 	
-	DSPfract bufferL[BLOCK_SIZE];
-	DSPfract bufferR[BLOCK_SIZE];
-
-	DSPfract *p;
-	DSPfract *buffL = bufferL;
-	DSPfract *buffR = bufferR;
 
 
+__memY	DSPfract *p;
+__memY	DSPfract *buffL = bufferL;
+__memY	DSPfract *buffR = bufferR;
 
-	for(p = sampleBuffer[0]; p < sampleBuffer[0] + BLOCK_SIZE; p++)
+ DSPint i;
+ p=sampleBuffer[0];
+	for(i = 0; i<BLOCK_SIZE; i++)
 	{
 		//Left side
 		*p =(*p) * GAIN_MINUS_6D;
@@ -24,22 +24,25 @@ void processing(inverter_data_t* inverter)
 		//Right side
 		*(p+BLOCK_SIZE) = *(p+BLOCK_SIZE) * GAIN_MINUS_6D;
 		*buffR++ = *(p+BLOCK_SIZE);
+		p++;
+
 	}
 
 		buffL = bufferL;
 		buffR = bufferR;
 
-	
-	for(p = sampleBuffer[0]; p < sampleBuffer[0] + BLOCK_SIZE; p++)
+	p=sampleBuffer[0];
+	for(i = 0; i<BLOCK_SIZE; i++)
 	{
 		*(p+32) = (*p + *(p+16))*GAIN_MINUS_3D;
+		p++;
 	}
 	
 
 	gst_audio_invert_transform(inverter,buffL,buffL);
 	gst_audio_invert_transform(inverter,buffR,buffR);
-
-	for(p = sampleBuffer[0]; p < sampleBuffer[0] + BLOCK_SIZE; p++){
+	p=sampleBuffer[0];
+	for(i = 0; i<BLOCK_SIZE; i++){
 		
 		*p = *(p+32) * GAIN_MINUS_6D;
 		*(p+16) = *(p+32) * GAIN_MINUS_6D;
@@ -49,9 +52,12 @@ void processing(inverter_data_t* inverter)
 
 		*buffL++;
 		*buffR++;
+		p++;
 		}
 
 	buffL = bufferL;
 	buffR = bufferR;
 
 }
+
+*/

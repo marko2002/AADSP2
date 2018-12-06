@@ -27,7 +27,7 @@ _gainTmp
 	.xdata_ovly
 _inverter
 	.bss (0x2)
-	.xdata_ovly
+	.ydata_ovly
 _sampleBuffer
 	.bss (0x80)
 	.xdata_ovly
@@ -53,30 +53,15 @@ _string_const_0
 	.dw  (0x6d)
 	.dw  (0x73)
 	.dw  (0x2f)
-	.dw  (0x32)
-	.dw  (0x63)
-	.dw  (0x68)
+	.dw  (0x41)
+	.dw  (0x6d)
+	.dw  (0x70)
 	.dw  (0x5f)
-	.dw  (0x63)
-	.dw  (0x6f)
-	.dw  (0x6e)
-	.dw  (0x74)
-	.dw  (0x6f)
-	.dw  (0x75)
-	.dw  (0x72)
-	.dw  (0x5f)
-	.dw  (0x6e)
+	.dw  (0x53)
+	.dw  (0x77)
 	.dw  (0x65)
-	.dw  (0x34)
-	.dw  (0x30)
-	.dw  (0x5f)
-	.dw  (0x32)
-	.dw  (0x34)
-	.dw  (0x62)
-	.dw  (0x5f)
-	.dw  (0x34)
-	.dw  (0x38)
-	.dw  (0x6b)
+	.dw  (0x65)
+	.dw  (0x70)
 	.dw  (0x2e)
 	.dw  (0x77)
 	.dw  (0x61)
@@ -230,7 +215,7 @@ label_begin_92:			/* LN: 35 | CYCLE: 0 | RULES: () */
 	a0 = a0 + b0			# LN: 36 | 
 	AnyReg(i0, a0h)			# LN: 36 | 
 	nop #empty cycle
-	xmem[i0] = a1h			# LN: 36 | 
+	ymem[i0] = a1h			# LN: 36 | 
 cline_36_0:			/* LN: 35 | CYCLE: 0 | RULES: () */ 
 init_latch_label_0:			/* LN: 37 | CYCLE: 0 | RULES: () */ 
 	i0 = i7 - (0x4)			# LN: 35 | 
@@ -380,7 +365,7 @@ cline_88_0:			/* LN: 89 | CYCLE: 0 | RULES: () */
 	AnyReg(i0, a0h)			# LN: 89 | 
 	i1 = i7 - (0x20e)			# LN: 89 | 
 	a0 = xmem[i1]			# LN: 89 | 
-	xmem[i0] = a0h			# LN: 89 | 
+	ymem[i0] = a0h			# LN: 89 | 
 cline_89_0:			/* LN: 86 | CYCLE: 0 | RULES: () */ 
 init_latch_label_2:			/* LN: 90 | CYCLE: 0 | RULES: () */ 
 	i0 = i7 - (0x20d)			# LN: 86 | 
@@ -428,7 +413,7 @@ label_begin_95:			/* LN: 97 | CYCLE: 0 | RULES: () */
 	a0 = a1 + a0			# LN: 99 | 
 	AnyReg(i0, a0h)			# LN: 99 | 
 	i1 = i7 - (0x20e)			# LN: 99 | 
-	a0 = xmem[i0]			# LN: 99 | 
+	a0 = ymem[i0]			# LN: 99 | 
 	xmem[i1] = a0h			# LN: 99 | 
 cline_99_0:			/* LN: 100 | CYCLE: 0 | RULES: () */ 
 	i0 = i7 - (0x20a)			# LN: 100 | 
